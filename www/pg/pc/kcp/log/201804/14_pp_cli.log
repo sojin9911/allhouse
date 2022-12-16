@@ -1,0 +1,40 @@
+0414-140350 - 26372 - INIMX_HPP_INIpay - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0414-140350 - 26372 - INIMX_HPP_INIpay - MSG : PG_서버_접속__정상
+0414-140350 - 26372 - INIMX_HPP_INIpay - MSG : PG_서버_요청_전문_전송__정상
+0414-140350 - 26372 - INIMX_HPP_INIpay - MSG : PG_서버_응답_전문_수신__정상
+0414-140350 - 26372 - INIMX_HPP_INIpay - MSG : TX_ENDED - res=[res_cd=8072res_msg=포맷에러(변경|거래번호)res_en_msg=trace_no=INIMX_HPP_INIpay]
+0414-145410 - 28850 - T00004EEr381Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[50865-34549-99807]+log_level=[3]
+0414-145410 - 28850 - T00004EEr381Q23g - MSG : PG_서버_접속__정상
+0414-145410 - 28850 - T00004EEr381Q23g - MSG : PG_서버_요청_전문_전송__정상
+0414-145411 - 28850 - T00004EEr381Q23g - MSG : PG_서버_응답_전문_수신__정상
+0414-145411 - 28850 - T00004EEr381Q23g - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=T00004EEr381Q23gpay_method=PACAorder_no=50865-34549-99807card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=4673090000004144mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=50865-34549-99807tno=18734921202461amount=2690card_mny=2690coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20180414145411van_apptime=20180414145411app_no=24817786bizx_numb=00013219101quota=00noinf=Npg_txid=0414145411MP01AF1BDEEO0000000026900024817786res_tax_flag=TG03res_tax_mny=2445res_free_mny=0res_vat_mny=245partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=1card_bin_bank_cd=0341isp_partner_cd=040204040016656join_cd=0000]
+0414-145447 - 28890 - 18734921202461   - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0414-145447 - 28890 - 18734921202461   - MSG : PG_서버_접속__정상
+0414-145447 - 28890 - 18734921202461   - MSG : PG_서버_요청_전문_전송__정상
+0414-145447 - 28890 - 18734921202461   - MSG : PG_서버_응답_전문_수신__정상
+0414-145447 - 28890 - 18734921202461   - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=18734921202461  pay_method=PACAorder_no=50865-34549-99807card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=50865-34549-99807tno=18734921202461amount=2690card_mny=2690coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20180414145448van_apptime=20180414145448canc_time=20180414145448app_no=24817786bizx_numb=00013219101quota=00noinf=Npg_txid=0414145448MP01AF1BDEEO0000000026900024817786]
+0414-152841 - 30271 - T00004EFRVRINNPG - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[55499-36519-91992]+log_level=[3]
+0414-152841 - 30271 - T00004EFRVRINNPG - MSG : PG_서버_접속__정상
+0414-152841 - 30271 - T00004EFRVRINNPG - MSG : PG_서버_요청_전문_전송__정상
+0414-152841 - 30271 - T00004EFRVRINNPG - MSG : PG_서버_응답_전문_수신__정상
+0414-152841 - 30271 - T00004EFRVRINNPG - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=T00004EFRVRINNPGpay_method=PACAorder_no=55499-36519-91992card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=6258040000003074mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=55499-36519-91992tno=18734921202577amount=2690card_mny=2690coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20180414152841van_apptime=20180414152841app_no=11258386bizx_numb=00013219101quota=00noinf=Npg_txid=0414152841MP01AG1CLS340000000026900011258386res_tax_flag=TG03res_tax_mny=2445res_free_mny=0res_vat_mny=245partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=0card_bin_bank_cd=0341isp_partner_cd=080204040091911join_cd=0000]
+0414-152944 - 30326 - T00004EFTi81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0414-152944 - 30326 - T00004EFTi81Q23g - MSG : PG_서버_접속__정상
+0414-152945 - 30326 - T00004EFTi81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0414-152945 - 30326 - T00004EFTi81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0414-152945 - 30326 - T00004EFTi81Q23g - MSG : TX_ENDED - res=[res_cd=8072res_msg=포맷에러(변경|거래번호)res_en_msg=trace_no=T00004EFTi81Q23g]
+0414-152949 - 30332 - T00004EFTn81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0414-152949 - 30332 - T00004EFTn81Q23g - MSG : PG_서버_접속__정상
+0414-152949 - 30332 - T00004EFTn81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0414-152949 - 30332 - T00004EFTn81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0414-152949 - 30332 - T00004EFTn81Q23g - MSG : TX_ENDED - res=[res_cd=8072res_msg=포맷에러(변경|거래번호)res_en_msg=trace_no=T00004EFTn81Q23g]
+0414-153510 - 30552 - T00004EFYEPINNPG - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[63131-11299-57366]+log_level=[3]
+0414-153510 - 30552 - T00004EFYEPINNPG - MSG : PG_서버_접속__정상
+0414-153511 - 30552 - T00004EFYEPINNPG - MSG : PG_서버_요청_전문_전송__정상
+0414-153511 - 30552 - T00004EFYEPINNPG - MSG : PG_서버_응답_전문_수신__정상
+0414-153511 - 30552 - T00004EFYEPINNPG - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=T00004EFYEPINNPGpay_method=PACAorder_no=63131-11299-57366card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드card_no=6258040000003074mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=63131-11299-57366tno=18734921202601amount=2690card_mny=2690coupon_mny=0escw_yn=Nvan_cd=VNKCapp_time=20180414153511van_apptime=20180414153511app_no=40778165bizx_numb=00013219101quota=00noinf=Npg_txid=0414153511MP01AJ1CU4PX0000000026900040778165res_tax_flag=TG03res_tax_mny=2445res_free_mny=0res_vat_mny=245partcanc_yn=Ycard_bin_type_01=0card_bin_type_02=0card_bin_bank_cd=0341isp_partner_cd=080204040091911join_cd=0000]
+0414-153548 - 30608 - 18734921202601   - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0414-153548 - 30608 - 18734921202601   - MSG : PG_서버_접속__정상
+0414-153548 - 30608 - 18734921202601   - MSG : PG_서버_요청_전문_전송__정상
+0414-153548 - 30608 - 18734921202601   - MSG : PG_서버_응답_전문_수신__정상
+0414-153548 - 30608 - 18734921202601   - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=18734921202601  pay_method=PACAorder_no=63131-11299-57366card_cd=CCKMcard_name=KB국민카드acqu_cd=CCKMacqu_name=KB국민카드mcht_taxno=1138521083mall_taxno=1138521083ca_order_id=63131-11299-57366tno=18734921202601amount=2690card_mny=2690coupon_mny=0escw_yn=Ncanc_gubn=Bvan_cd=VNKCapp_time=20180414153548van_apptime=20180414153548canc_time=20180414153548app_no=40778165bizx_numb=00013219101quota=00noinf=Npg_txid=0414153548MP01AJ1CU4PX0000000026900040778165]

@@ -1,0 +1,73 @@
+@charset 'utf-8';
+
+/*
+	copyright(c) 상상너머·원데이넷 all rights reserved.
+	허용된 라이센스이외 무단도용재배포를 금합니다.
+*/
+/* LDD: 2017-10-20 첨부파일의 이미지 미리보기 툴팁 제어 */
+/*.preview_thumb:hover .ov {display:none !important;}*/
+.ui-tooltip {
+	border-width:1px !important;
+	border-bottom-right-radius:0 !important;
+	border-top-right-radius:0 !important;
+	border-bottom-left-radius:0 !important;
+	border-top-left-radius:0 !important;
+	box-shadow: unset !important;
+	z-index: 100;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px solid #d9dee3;
+	padding: 10px;
+}
+.ui-tooltip img {
+	height: auto;
+	margin: 0px;
+	max-width: 250px;
+}
+.disabled {background:#f5f5f5 !important; cursor:no-drop}
+.number_style {text-align:right;}
+
+
+/* JJC ::: 안내문구 내 strong 강조 ::: 2017-11-03 */
+.c_tip strong { color:#333; font-weight:600; }
+
+/* JJC ::: input + fr_tx + input 형태일 경우 간격 맞춤 - 기간검색 등에 사용 가능함 ::: 2017-11-03 */
+/* input.design+ .fr_tx+ input.design {margin-left:10px;} */
+
+
+/* LDD: 2017-11-03 카운터용 테이블의 hit제어 */
+.if_counter_table td.hit { background-color: #D5EAF9 !important; font-weight:600; }
+
+
+
+/*JJC : 2017-11-17 : input박스와 단어 입력 css의 간격 조정*/
+input.design+ .fr_tx.term {margin-left: 0px !important;}
+
+/*JJC : bold일 경우 input에 적용되지 않는 현상 수정 : 2017-11-25*/
+.bold input {font-weight:600 !important;}
+
+
+/* JJC ::: float : left 또는 right 사용금지 ::: 2017-11-29*/
+.no_left { float:none !important; }
+
+
+/*.table_list .line {border-right:1px solid #bbb; }  -- 버튼의 .line과 중복되서 삭제 2018-02-03 : SSJ */
+
+/* SSJ : 2017-12-12 상품상세 외부이미지 입력폼 추가  */
+.input_file .hyperLink {background:#fff; box-sizing:border-box; border:1px solid #d9dee3; padding:0 5px; overflow:hidden; padding:4px 10px 5px 9px; opacity:1; font-size:12px; cursor:auto !important;}
+
+
+/* JJC : 통계 grid 영역 설정 : JJC*/
+.grid {background:#EFEFEF !important; color:#777; font-weight:bold;}
+.grid_no { color:#333; font-weight:normal;}
+.grid_sky { color:#008aff !important; font-weight:normal;}
+
+/* LDD: select2의 모양 변경 */
+.select2-container--default .select2-selection--single {
+	border-radius: 0px !important;
+	border: 1px solid #d9dee3 !important;
+	height: auto !important;
+}
+
+/*JJC - 옵션 - radio 버튼 수정*/
+.option_color label.design {float:left !important; margin:0px 15px 0px 0px !important;}

@@ -1,0 +1,84 @@
+@charset 'utf-8';
+
+/*
+	© ONEDAYNET.CO.KR. ALL RIGHTS RESERVED.
+*/
+
+html {width:100%; height:100%;}
+body {margin:0; padding:0; width:100%; height:100%; min-width:1500px; background:#fff; overflow-y:scroll}
+
+/* 웹폰트 사용시 */
+body,p,pre,form,span,div,table,td,ul,ol,li,dl,dt,dd,input,textarea,label,button {color:#666; word-wrap:break-word; word-break:break-all; font-family:맑은고딕,Malgun Gothic,돋움,sans-serif; font-size:12px; letter-spacing:0; font-weight:400}
+b,strong {color:#666; word-wrap:break-word; word-break:break-all; font-size:inherit; font-family:inherit; font-weight:600}
+
+p,form,span,h1,h2,h3,h4,h5,h6 {margin:0; padding:0; font-weight:normal}
+div,table {margin:0; padding:0; border-spacing:0; border-collapse:collapse; border:0px none; }
+ul,ol,li,td,dl,dt,dd {margin:0; padding:0;}
+em,i {font-style:normal}
+a,span,em,strong {display:inline-block;}
+img {border:0;}
+span,div,a,b,strong,label {color:inherit; font-size:inherit; font-weight:inherit}
+table caption {width:0px; height:0px; font-size:0; visibility:hidden; }
+
+a:link, a:visited {text-decoration: none; cursor:pointer}
+a:hover, a:active {color:#333; text-decoration: none;}
+label:hover {color:#333}
+
+* {text-decoration-skip-ink: none;}
+
+/* 마우스 드래그시 컬러 (디자인적으로 필요하면 사용) 하위브라우저 적용안됨 */
+::selection {background:#353c43; color:#fff; text-shadow: none;}
+::-moz-selection {background:#353c43; color:#fff; text-shadow: none;}
+::-webkit-selection {background:#353c43; color:#fff; text-shadow: none;}
+
+
+/* 폼요소기본 */
+label {display:inline-block; overflow:hidden; cursor:pointer; color:#666}
+label input[type=checkbox],label input[type=radio] {float:left; height:13px; width:13px; cursor:pointer; -webkit-gradient:none; -webkit-border-radius:0;}
+input[type=file] {cursor:pointer; border:0; border-radius:0px; -webkit-appearance:none; -webkit-gradient:none; -webkit-border-radius:0; border-radius:0px;}
+input[type=submit],input[type=button],button {cursor:pointer; border:0; border-radius:0px; -webkit-appearance:none; -webkit-gradient:none; -webkit-border-radius:0; border-radius:0px;}
+input[type=text],input[type=password],input[type=search],input[type=email],input[type=number],input[type=tel] {margin:0;padding:0;}
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0;} /* number 오른쪽에 나타나는 화살표 버튼없애기 */
+input[type=date]::-webkit-outer-spin-button, input[type=date]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0;} /* 오른쪽에 나타나는 화살표 버튼없애기 */
+
+input {color:#666; background:transparent; margin:0; padding:0; border:0; }
+input[type=text]:focus {color:#333 !important;}
+input::-ms-clear {display: none;}
+
+textarea {color:#666; background:transparent; margin:0;padding:0; ; border:0; }
+textarea:focus {color:#333 !important;}
+select {color:#666; cursor:pointer; font-size: inherit !important; font-family: inherit !important;} /* 셀렉트는오류때문에 필수! */
+
+/* 검색인풋에 자동x버튼 삭제 */
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {display:none;}
+
+
+/* 웹접근성 작업 시 사용하면 안됨 */
+input,select,textarea {outline:none}
+
+
+/* 크롬 자동완성 BG색 버림(아이디비번저장 시) */
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px #fff inset;}
+input:-webkit-autofill:focus {-webkit-box-shadow: 0 0 0px 1000px #fff inset;}
+
+
+/* placeholder는 아직 브라우저 환경때문에 PC버전에서 사용안함  */
+placeholder {color:#aaa !important; font-weight:400;}
+input::-webkit-input-placeholder {color:#aaa !important; font-weight:400;}
+input:-ms-input-placeholder {color:#aaa !important; font-weight:400;}
+input:-moz-placeholder {color:#aaa !important; font-weight:400;}
+textarea::-webkit-input-placeholder {color:#aaa !important; font-weight:400;}
+textarea:-ms-input-placeholder {color:#aaa !important; font-weight:400;}
+textarea:-moz-placeholder {color:#aaa !important; font-weight:400;}
+
+
+
+.wrap {width:100%; min-height:100%; position:relative; overflow:hidden; margin:0 auto; box-sizing:border-box; padding-bottom:92px;}
+.lineup {display:inline-block} /* float요소들 정렬시킬때 사용 */
+.layout_fix {max-width:1400px; margin:0 auto; position:relative}
+.upper_link {position:absolute; left:0; top:0; width:100%; height:100%; z-index:9}
+
+

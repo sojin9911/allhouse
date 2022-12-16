@@ -1,0 +1,669 @@
+@charset "utf-8";
+
+/* 소스를 넘길 때는 webfont 폴더를 꼭 복사하시고 경로 변경 해주세요.*/
+/* IE 9 이하버전에서는 font-weight: 800(extrabold)이 반영되지 않음. */
+
+@font-face {
+	font-family: "NanumGothic";
+	font-style: normal;
+	font-weight: 400;
+	src: url("webfont/NanumGothic-Regular.eot");
+	src: url("webfont/NanumGothic-Regular.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/NanumGothic-Regular.woff2") format("woff2"), 
+	url("webfont/NanumGothic-Regular.woff") format("woff"), 
+	url("webfont/NanumGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "NanumGothic";
+	font-style: normal;
+	font-weight: 700;
+	src: url("webfont/NanumGothic-Bold.eot");
+	src: url("webfont/NanumGothic-Bold.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/NanumGothic-Bold.woff2") format("woff2"), 
+	url("webfont/NanumGothic-Bold.woff") format("woff"), 
+	url("webfont/NanumGothic-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "NanumGothic";
+	font-style: normal;
+	font-weight: 800;
+	src: url("webfont/NanumGothic-ExtraBold.eot");
+	src: url("webfont/NanumGothic-ExtraBold.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/NanumGothic-ExtraBold.woff2") format("woff2"), 
+	url("webfont/NanumGothic-ExtraBold.woff") format("woff"), 
+	url("webfont/NanumGothic-ExtraBold.ttf") format("truetype");
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+html {height:100%; overflow-y:auto;}
+body {margin:0; padding:0; background:#f9f9f9; min-width:800px; height:100%;}
+
+img {border:0;}
+p,form,span {margin:0;padding:0;}
+div,table {margin:0;padding:0; border-spacing:0; border-collapse:collapse; border:0px none; }
+ul,ol,li,td {list-style:none; margin:0; padding:0;}
+
+input,select,textarea {margin:0;padding:0; vertical-align:middle;}
+body,p,pre,form,span,div,table,ul,ol,li,td,input,textarea {font-family:NanumGothic; font-size:12px; color:#333; word-wrap:break-word; word-break:break-all; }
+select {font-size:12px; color:#666; height:25px; line-height:25px; border: 1px solid #c1c1c1; }
+select option { padding: 0 5px; }
+
+input { position: relative; z-index: 100; }
+
+label {cursor:pointer}
+/* link */
+a {cursor:pointer;}
+a:link, a:visited {color:#333; text-decoration: none;}
+a:hover, a:active {color:#ff0000; text-decoration: none;}
+
+.fl_left {float:left;}
+.fl_right {float:right;}
+
+/* 나눔고딕폰트/
+@font-face {font-family:NanumGothic; src:url('NanumGothic.eot');
+src:url('NanumGothic.eot') format('eot'); 
+src:url(NanumGothic.woff) format('woff') }
+ *
+
+/* 로그인 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+#login {width:800px; position:absolute; left:50%; top:50%; margin:-210px 0 0 -400px; overflow:hidden;}
+
+#login .box {width:780px; height:260px; background:#fff; border:10px solid #c3d1d6; overflow:hidden;}
+
+#login .box .left {float:left; width:300px; height:260px; line-height:260px; text-align:center; display:inline-block; background: transparent url('../images/login_bg.png') right center no-repeat;}
+#login .box .left img {padding-top:60px;}
+
+#login .box .right {float:right; width:480px;}
+#login .box .right .form_box {width:340px; margin:0 auto; padding-top:60px;}
+
+#login .box .right .form_box .type_choice {padding-left:10px; height:30px;}
+#login .box .right .form_box .type_choice .choice {font-weight:bold; color:#000; margin-right:20px; vertical-align:top;}
+#login .box .right .form_box .type_choice input {margin-right:5px;}
+
+#login .box .right .form_box .input_box {width:200px; float:left;}
+#login .box .right .form_box .input_box .input_text {border:1px solid #c4c4c4; height:33px; width:200px; padding:0 10px; line-height:30px; color:#333; font-family:verdana; font-size:16px; font-weight:bold; margin-bottom:11px;}
+
+#login .box .right .form_box .btn_login {float:right;}
+/* 2015-01-23 스프라이트이미지삭제 */
+#login .box .right .form_box .btn_login .btn {background: transparent url('../images/btn_login.gif') 0 0 no-repeat; width:110px; height:81px; display:inline-block; cursor:pointer; border:0;}
+
+#login .copyright {text-align:center; font-family:tahoma; color:#ccc; font-size:11px; padding:20px 0; overflow:hidden;}
+
+#login .warning {overflow:hidden; background:#efefef; padding:20px;}
+/* 2015-01-23 스프라이트이미지삭제 */
+#login .warning .icon {background: transparent url('../images/login_ic.png') 0 0 no-repeat; width:56px; height:56px; display:inline-block; margin-right:20px; float:left;}
+
+#login .warning .text {display:inline-block; float:left;}
+#login .warning .text li {font-size:11px; color:#818181; padding:1px 0; }
+#login .warning .text li b {color:#333;}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+#wrap{height:100%; width:100%; position:relative; overflow:visible; min-width:1024px; }
+
+
+/* 헤더 ---------------------------------------------------------------- */
+#header{clear:both; position:relative; width:100%; height:45px; z-index:25; background:#43464f; overflow:hidden;}
+#header .logo {display:block; height:45px; width:265px; float:left; overflow:hidden; line-height:45px; color:#fff;}
+#header .logo .name {color:#fff; font-weight:bold; font-size:20px; letter-spacing:-1px; margin-left:5px;}
+#header .logo .en {color:#999; font-weight:bold; font-size:11px; font-family:tahoma; margin-left:5px;}
+#header .title {float:left; padding:10px 0 0 20px;}
+
+#header .today {background: transparent url(../images/today.png) left top no-repeat; width:140px; height:30px; float:left; margin:7px 0 0 20px; position:relative;}
+#header .today .year {position:absolute; font-family:tahoma; font-size:11px; font-weight:bold; color:#999; margin:9px 0 0 53px;}
+#header .today .month {position:absolute; font-family:tahoma; font-size:11px; font-weight:bold; color:#333; margin:9px 0 0 90px;}
+#header .today .day {position:absolute; font-family:tahoma; font-size:11px; font-weight:bold; color:#333; margin:9px 0 0 114px;}
+
+#header .btn {float:right; margin:10px 15px 0 0;}
+/* 2015-01-23 스프라이트이미지삭제 */
+#header .btn .btn_home {background: transparent url('../images/btn_top_home.gif') 0 0 no-repeat; width:88px; height:23px; display:inline-block; float:left;}
+#header .btn .btn_logout {background: transparent url('../images/btn_top_logout.gif') 0 0 no-repeat; width:88px; height:23px; display:inline-block; border:none; float:left; cursor:pointer;}
+
+
+/* 컨텐츠내용 ---------------------------------------------------------------- */
+
+/* 2단메뉴 보일때 */
+.container{background:url('../images/aside_bg.gif') repeat-y; z-index:20; position:relative; min-height:100%; overflow:visible; margin:-45px 0 -36px 0; }
+.container:after{clear:both; display:block; height:0; content:''; visibility:hidden}
+
+.container .content_section {float:left; position:relative; z-index:10; width:100%; margin:35px 0 0 -265px;}
+.container .content_section .content_section_fix {margin:0 0 0 265px; height:100%; width:auto; overflow-y:visible;zoom:1;}
+
+/* 2단메뉴 안보일때 */
+.container_hide {background:url('../images/aside_bg_hide.gif') repeat-y; z-index:20; position:relative; min-height:100%; overflow:visible; margin:-45px 0 -36px 0; zoom:1}
+.container_hide:after{clear:both; display:block; height:0; content:''; visibility:hidden}
+
+.container_hide .content_section {float:left; position:relative; z-index:10; width:100%; margin:45px 0 0 -265px; zoom:1}
+.container_hide .content_section .content_section_fix {margin:0 0 0 80px; height:100%; width:auto; overflow-y:visible;zoom:1;}
+
+.container_hide .aside_second {visibility:hidden;}
+
+
+
+/* 1단메뉴 2015-01-23 스프라이트이미지삭제 및 간결하게변경  ---------------------------------------------------------------- */
+.aside_first {z-index:20; width:80px; border:0 !important; overflow:visible; position:relative; zoom:1; padding-top:45px; padding-bottom:35px; float:left;}
+
+.aside_first a { width:79px; height:80px; display:inline-block; float:left;}
+.aside_first a:hover {background-position:-80px 0}
+.aside_first .hit {background-position:-160px 0 !important}
+
+.aside_first .menu_0 {background: transparent url('../images/menu/menu_01.gif') no-repeat;} /* 환경설정 */
+.aside_first .menu_1 {background: transparent url('../images/menu/menu_03.gif') no-repeat;} /* 상품설정 */
+.aside_first .menu_2 {background: transparent url('../images/menu/menu_04.gif') no-repeat;} /* 주문결제 */
+.aside_first .menu_5 {background: transparent url('../images/menu/menu_05.gif') no-repeat;} /* 게시판관리 */
+.aside_first .menu_6 {background: transparent url('../images/menu/menu_06.gif') no-repeat;} /* 배너팝업 */
+.aside_first .menu_7 {background: transparent url('../images/menu/menu_07.gif') no-repeat;} /* 일반관리 */
+.aside_first .menu_8 {background: transparent url('../images/menu/menu_08.gif') no-repeat;} /* 로그분석 */
+
+/* 여기서부터는 추가적인 관리자메뉴 */
+.aside_first .menu_9 {background: transparent url('../images/menu/menu_09.gif') no-repeat;} /*  */
+.aside_first .menu_10 {background: transparent url('../images/menu/menu_10.gif') no-repeat;} /*  */
+.aside_first .menu_11 {background: transparent url('../images/menu/menu_11.gif') no-repeat;} /*  */
+.aside_first .menu_12 {background: transparent url('../images/menu/menu_12.gif') no-repeat;} /*  */
+.aside_first .menu_13 {background: transparent url('../images/menu/menu_13.gif') no-repeat;} /*  */
+
+/*
+.aside_first .menu_0_on {background: transparent url('../images/menu/menu_00.gif') -160px 0 no-repeat;}
+.aside_first .menu_1_on {background: transparent url('../images/menu/menu_01.gif') -160px 0 no-repeat;}
+.aside_first .menu_2_on {background: transparent url('../images/menu/menu_02.gif') -160px 0 no-repeat;}
+.aside_first .menu_3_on {background: transparent url('../images/menu/menu_03.gif') -160px 0 no-repeat;}
+.aside_first .menu_4_on {background: transparent url('../images/menu/menu_04.gif') -160px 0 no-repeat;}
+.aside_first .menu_5_on {background: transparent url('../images/menu/menu_05.gif') -160px 0 no-repeat;}
+.aside_first .menu_6_on {background: transparent url('../images/menu/menu_06.gif') -160px 0 no-repeat;}
+.aside_first .menu_7_on {background: transparent url('../images/menu/menu_07.gif') -160px 0 no-repeat;}
+.aside_first .menu_8_on {background: transparent url('../images/menu/menu_08.gif') -160px 0 no-repeat;}
+*/
+
+
+/* 2단메뉴 ---------------------------------------------------------------- */
+.aside_second {position:relative; width:185px; float:left; z-index:30; padding:45px 0 35px 0; overflow:hidden;}
+.aside_second > a {width:164px; display:inline-block; padding:10px 10px;}
+.aside_second .menu {color:#000; border-bottom:1px solid #bac0c6; }
+.aside_second .menu:hover {background:#c3d1df;}
+.aside_second .menu_on {color:#fff; font-weight:bold; border-bottom:1px solid #375a7d; background:#6f96bd;}
+
+
+
+/* 자주찾는메뉴 2013-05-10 ---------------------------------------------------------------- */
+.aside_second .favorite_menu {overflow:hidden; margin:0 auto; width:164px;}
+/* 2015-01-23 스프라이트이미지삭제 */
+.aside_second .favorite_menu .title {display:inline-block; background: transparent url('../images/btn_favorite.png') 0 0 no-repeat; width:164px; height:29px; margin-top:30px;}
+.aside_second .favorite_menu .title:hover { background: transparent url('../images/btn_favorite.png') 0 -29px no-repeat; }
+
+.aside_second .favorite_menu .box {background:#f4f4f4;}
+.aside_second .favorite_menu .box .fmenu {display:inline-block; width:140px; font-size:11px; color:#666; border-top:1px solid #e0e0e0; padding:7px 10px; letter-spacing:-1px;}
+.aside_second .favorite_menu .box .fmenu:hover {color:#ff0000;}
+.aside_second .favorite_menu .box a:first-child {border:none;}
+
+
+/* 2단메뉴 열기/닫기 2013-04-04 ---------------------------------------------------------------- */
+.content_section .open_close {position:absolute; margin-top:13px;}
+/* 2015-01-23 스프라이트이미지삭제 */
+.content_section .open_close .btn_close {background: transparent url('../images/btn_menuopen.gif') 0 0 no-repeat; width:9px; height:36px; display:inline-block;}
+.content_section .open_close .btn_open {background: transparent url('../images/btn_menuopen.gif') -9px 0 no-repeat; width:9px; height:36px; display:none;}
+
+
+
+/* 페이지 큰타이틀 ------------------------------------- */
+.content_section .title_area {background:#fff; border-bottom:1px solid #bac0c6; padding:15px 30px; overflow:hidden;}
+/* 2015-01-23 스프라이트이미지삭제 */
+.content_section .title_area .icon {background: transparent url('../images/bullet_title.png') 0 0 no-repeat; width:20px; height:26px; display:inline-block; float:left; margin:3px 10px 0 0;}
+.content_section .title_area .title {color:#000; font-size:25px; float:left;}
+.content_section .title_area .location {float:right; font-size:11px; color:#b3b3b3;}
+
+/* 2013-08-01 추가 */
+.content_section .sub_title {margin:10px 20px -15px 20px; overflow:hidden; }
+/* 2015-01-23 스프라이트이미지삭제 */
+.content_section .sub_title .icon {background: transparent url('../images/bullet_stitle.png'); width:20px; height:20px; display:inline-block; float:left; margin:3px 3px 0 0;}
+.content_section .sub_title .title {float:left; font-size:17px; font-weight:bold;}
+
+
+/* 페이지 큰타이틀 ------------------------------------- 
+.content_section .title_area {background:#fff; border-bottom:1px solid #bac0c6; padding:15px 30px; overflow:hidden;}
+.content_section .title_area .icon {background: transparent url(../images/adm_pack.png) -420px -160px no-repeat; width:20px; height:26px; display:inline-block; float:left; margin:3px 10px 0 0;}
+.content_section .title_area .title {color:#000; font-size:25px; float:left;}
+.content_section .title_area .location {float:right; font-size:11px; color:#b3b3b3;}
+*/
+
+/* 메인 추출 2013-05-09 -------------------------------------------------------------------------- */
+.content_section .main_box_area {width:950px; margin-bottom:20px; overflow:hidden;}
+
+.content_section .group_title {margin:0 2px 5px 0; overflow:hidden; }
+/* 2015-01-23 스프라이트이미지삭제 */
+.content_section .group_title .icon {background: transparent url('../images/bullet_stitle.png') 0 0 no-repeat; width:20px; height:20px; display:inline-block; float:left; margin:5px 0 0 0;}
+.content_section .group_title .title {float:left; font-size:17px; font-weight:bold;}
+.content_section .group_title .btn_area {float:right}
+
+.content_section .main_box_area .last_TB {width:100%; border:2px solid #c1c1c1; background:#fff;}
+.content_section .main_box_area .last_TB th {background:#ededed; color:#333; padding:5px; border-left:1px solid #d4d4d4;}
+.content_section .main_box_area .last_TB td {border-bottom:1px solid #e1e1e1; vertical-align:middle; padding:4px; border-top:1px solid #d4d4d4; border-left:1px solid #d4d4d4; text-align:right;}
+.content_section .main_box_area .last_TB td:first-child {background:#ededed; text-align:center;}
+.content_section .main_box_area .last_TB td b {color:#009cff; font-family:tahoma; font-size:13px;}
+.content_section .main_box_area .last_TB td .hit {color:#ff8a00;}
+
+.bar_num {z-index:100;display:none;position:absolute; background:#000; height:17px; line-height:17px; font-family:tahoma; color:#fff; font-size:11px; padding:0 5px; left:0; top:0;}
+
+/* 메인그래프 2013-07-30 */
+.content_section .main_total_graph {width:950px; height:180px; margin:20px 20px 20px 0px; overflow:hidden; border:2px solid #c1c1c1; background:#fff url('../images/graph_bg.gif') left top repeat-x; position:relative; } 
+
+.content_section .main_total_graph .article {margin-right:15px; height:34px; overflow:hidden; float:right;}
+.content_section .main_total_graph .article li {float:left; color:#333; margin-top:10px; font-size:11px; margin-left:20px;}
+
+.content_section .main_total_graph .article .bar_black {display:inline-block; background:#43464f; width:20px; height:10px; margin-right:5px;}
+.content_section .main_total_graph .article .bar_blue {display:inline-block; background:#6f96bd; width:20px; height:10px; margin-right:5px;}
+.content_section .main_total_graph .article .bar_red {display:inline-block; background:#eb6d8d; width:20px; height:10px; margin-right:5px;}
+
+.content_section .main_total_graph .graph_article {overflow:hidden; border-top:1px solid #41444d; }
+.content_section .main_total_graph .graph_article li {width:25%; float:left; text-align:center; padding-top:7px; font-weight:bold;}
+
+.content_section .main_total_graph .graph_box {overflow:hidden; position:relative; clear:both; height:115px; }
+
+.content_section .main_total_graph .graph_box .bar_set {width:60px; overflow:hidden; position:absolute; height:115px; left:0; bottom:0;}
+.content_section .main_total_graph .graph_box .bar_set li {width:33.3%; height:115px; float:left;}
+
+.content_section .main_total_graph .graph_box .bar_set1 {margin-left:95px;}
+.content_section .main_total_graph .graph_box .bar_set2 {margin-left:330px;}
+.content_section .main_total_graph .graph_box .bar_set3 {margin-left:567px;}
+.content_section .main_total_graph .graph_box .bar_set4 {margin-left:805px;}
+.content_section .main_total_graph .graph_box .bar_set5 {margin-left:835px;}
+
+.content_section .main_total_graph .graph_box .bar_black {display:inline-block; background:#43464f; width:13px; height:5px; bottom:0; position:absolute;}
+.content_section .main_total_graph .graph_box .bar_blue {display:inline-block; background:#6f96bd; width:13px; height:5px; bottom:0; position:absolute;}
+.content_section .main_total_graph .graph_box .bar_red {display:inline-block; background:#eb6d8d; width:13px; height:5px; bottom:0; position:absolute;}
+
+
+
+
+/* 폼/검색영역박스 -------------------------------------  */
+.content_section .form_box_area {border:2px solid #c1c1c1; background:#fff; margin:20px 20px 20px 20px; padding:10px; overflow:hidden;}
+.content_section .form_box_area .form_TB {width:100%;}
+.content_section .form_box_area .form_TB td {border-bottom:1px solid #e1e1e1; vertical-align:middle; line-height:18px; }
+.content_section .form_box_area .form_TB .article {padding:2px 10px; background:#f1f1f1; color:#000; font-size:11px;}
+.content_section .form_box_area .form_TB .conts {padding:5px 10px;}
+.content_section .form_box_area .form_TB .conts .star {display:block; background:transparent url(/images/default_shop/defalut_shop_pack.png) -610px -60px no-repeat; display:inline-block; width:57px; height:10px; }
+.content_section .form_box_area .form_TB .conts .star_color {background:transparent url(/images/default_shop/defalut_shop_pack.png) -610px -80px no-repeat; display:inline-block; width:57px; height:10px; float:left;}
+/* 2015-01-23 스프라이트이미지삭제 */
+.content_section .form_box_area .form_TB .ic_ess {background: transparent url('../images/bullet_ess.png') 0 0 no-repeat; width:12px; height:10px; display:inline-block; margin-left:5px;}
+
+.content_section .form_box_area .form_TB .multi {margin-right:20px;}
+.content_section .form_box_area .form_TB .multi input {margin-right:3px;}
+
+/* 2013-08-01 수정 */
+.content_section .form_box_area .form_TB .line {padding:5px 0; border-bottom:1px dashed #ccc}
+.content_section .form_box_area .form_TB .line input {margin-right:5px;}
+
+.content_section .input_text {border:1px solid #c1c1c1; height:25px; line-height:25px; padding:0 5px; color:#000;}
+.content_section .textarea {border:1px solid #c1c1c1; padding:5px; color:#000;}
+.content_section .select {border:1px solid #c1c1c1; padding:3px; color:#666;}
+.content_section .form_box_area .form_TB td select {border:1px solid #c1c1c1; padding:3px; color:#333;}
+
+
+/* 리스트 자리잡기 */
+.content_section .content_section_inner {margin:20px; overflow:hidden; padding-bottom:30px;}
+
+
+/*  버튼영역 -------------------------------------  */
+.content_section .bottom_btn_area {text-align:center; overflow:hidden; margin-bottom:50px;}
+.content_section .top_btn_area {text-align:center; margin-top:10px; overflow:hidden;}
+.content_section .ctr_btn_area {margin-bottom:5px; float:right;}
+.content_section .ctl_btn_area {margin:5px 0px; float:left;}
+
+/* 리스트테이블 */
+.content_section .list_TB {width:100%; border-top:2px solid #000; background:#fff;}
+.content_section .list_TB th {color:#333; padding:10px; border-bottom:1px solid #c6c6c6; background:#d6d6d6; font-size:11px;}
+.content_section .list_TB td {padding:5px; border-left:1px solid #c6c6c6; border-bottom:1px solid #c6c6c6; vertical-align:middle; text-align:center;}
+.content_section .list_TB td:first-child {border-left:0;}
+.content_section .list_TB tr:hover {background:#f6f6f6;}
+
+
+/* 페이지네이트 ----------------------------- 2015-01-23 스프라이트이미지삭제 */
+.content_section .list_paginate {text-align:center; overflow:hidden; margin:20px 0 40px 0;}
+
+.content_section .list_paginate .btn {display:inline-block; padding:0 5px;}
+.content_section .list_paginate .btn a,
+.content_section .list_paginate .btn span {background:transparent url('../images/paginate.gif') no-repeat; display:inline-block;}
+
+.content_section .list_paginate .btn .first {background-position:0 0; width:29px; height:30px;}
+.content_section .list_paginate .btn .first:hover {background-position:-118px 0; width:29px; height:30px;}
+.content_section .list_paginate .btn .first_none {background-position:-236px 0; width:29px; height:30px;}
+
+.content_section .list_paginate .btn .prev {background-position:-29px 0; width:30px; height:30px;}
+.content_section .list_paginate .btn .prev:hover {background-position:-147px 0; width:30px; height:30px;}
+.content_section .list_paginate .btn .prev_none {background-position:-265px 0; width:30px; height:30px;}
+
+.content_section .list_paginate .btn .next {background-position:-59px 0; width:30px; height:30px;}
+.content_section .list_paginate .btn .next:hover {background-position:-177px 0; width:30px; height:30px;}
+.content_section .list_paginate .btn .next_none {background-position:-295px 0; width:30px; height:30px;}
+
+.content_section .list_paginate .btn .last {background-position:-89px 0; width:29px; height:30px;}
+.content_section .list_paginate .btn .last:hover {background-position:-207px 0; width:29px; height:30px;} 
+.content_section .list_paginate .btn .last_none {background-position:-325px 0; width:29px; height:30px;}
+
+.content_section .list_paginate .number {display:inline-block; vertical-align:top; }
+.content_section .list_paginate .number a {line-height:29px; color:#333; font-family:tahoma; font-size:14px; font-weight:bold; padding:0 10px; border-left:1px solid #e2e4ea; display:inline-block}
+.content_section .list_paginate .number a:hover {color:#ff0000;}
+.content_section .list_paginate .number a:first-child {border:none;}
+.content_section .list_paginate .number .on {color:#ff3a00;}
+
+
+/* SMS 발송 ---------------------------------------------------------------- 2013-08-03 수정 */
+.content_section .sms_sv_area {margin:40px 0 40px 40px; overflow:hidden;}
+.content_section .sms_mobile {float:left; margin:0 30px 0 0;width:234px; height:420px; background: transparent url('../images/sms_mobile.png') left top no-repeat; position:relative;}
+.content_section .sms_mobile .message {width:200px; height:210px; margin:68px 0 0 17px;}
+.content_section .sms_mobile .message textarea {width:170px; height:180px; padding:10px 15px;  background:none; border:none; overflow-x:hidden; overflow-y:auto; line-height:20px; color:#000; font-size:14px; font-weight:bold;}
+.content_section .sms_mobile .byte {text-align:center; color:#ff0000; font-family:tahoma; font-size:11px; margin-top:5px;}
+.content_section .sms_mobile .from {text-align:center; margin-top:42px;}
+.content_section .sms_mobile .from input {font-family:tahoma; text-align:center; padding:5px; width:150px; background:none; border:none; letter-spacing:1px; color:#000;}
+
+.content_section .sms_send {float:left; width:284px; height:420px;  background: transparent url('../images/sms_send.png') left top no-repeat; position:relative;}
+
+.content_section .sms_send .add_to {margin:46px 11px 0 25px}
+.content_section .sms_send .add_to .phone_num {background:#fff; padding:10px; text-align:center;}
+.content_section .sms_send .add_to .phone_num input {width:65px; height:25px; line-height:25px; color:#000; font-family:tahoma; font-size:13px; text-align:center; background: transparent url(../images/adm_pack.png) -420px -400px no-repeat; border:none;}
+.content_section .sms_send .add_to .btn_add {width:100%; background:#44474a; border:none; color:#fff; font-size:11px; font-family:dotum; letter-spacing:-1px; height:25px; line-height:25px;}
+
+.content_section .sms_send .add_list {margin:10px 11px 0 25px; background:#fff; padding:10px; overflow:hidden;}
+.content_section .sms_send .add_list .list_bg {background: transparent url(../images/adm_pack.png) -420px -440px no-repeat; overflow:hidden;}
+.content_section .sms_send .add_list .list_bg select {border:0; background:transparent; width:100%; height:95px; overflow-y:auto; font-family:dotum; color:#000;}
+.content_section .sms_send .add_list .btn_area {overflow:hidden; margin-top:5px;}
+.content_section .sms_send .add_list .btn_area input {float:left; width:80px; background:#8c8f93; border:none; color:#fff; font-size:11px; font-family:dotum; letter-spacing:-1px; height:20px; line-height:20px; }
+.content_section .sms_send .add_list .btn_area .total {float:right}
+.content_section .sms_send .add_list .btn_area .total span b {color:#ff4e00; font-size:11px;}
+
+.content_section .sms_send .reserve {margin:8px 11px 0 25px; background:#fff; padding:10px;}
+.content_section .sms_send .reserve .check {font-weight:bold; color:#ff4e00; margin-bottom:10px;}
+.content_section .sms_send .reserve .date {margin-top:5px; color:#666}
+.content_section .sms_send .reserve .date select {color:#000; font-family:tahoma; margin:0 2px; width:55px; border:1px solid #ccc;}
+
+.content_section .sms_send .btn_send {margin:10px 11px 0 25px;}
+.content_section .sms_send .btn_send input {border:none; width:100%; background: transparent url(../images/adm_pack.png) -420px -620px no-repeat; height:36px;}
+
+
+
+/* 하단 ---------------------------------------------------------------- */
+#footer{z-index:100; position:relative; width:100%; height:35px; border-top:1px solid #262b35;background:#e4e4e4; border-top:1px solid #c1c1c1; clear:both;}
+#footer .copyright {margin:13px 0 0 10px; font-family:tahoma; font-size:10px; color:#b9b9b9;}
+#footer .copyright .name {margin-right:5px; color:#949494; font-weight:bold;}
+#footer .gotop {position:absolute; right:0; top:0; margin:6px 10px 0 0 ;}
+/* 2015-01-23 스프라이트이미지삭제 */
+#footer .gotop .btn_gotop {background:transparent url('../images/btn_gotop.gif') 0 0 no-repeat; display:inline-block; width:75px; height:23px;}
+
+
+/* <공통> 도움말 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.guide_text { margin:7px 0;}
+/* 2015-01-23 스프라이트이미지삭제 */
+.guide_text .ic_blue {background: transparent url('../images/bullet_ic1.png') 0 0 no-repeat; width:12px; height:12px; display:inline-block; float:left; margin:3px 3px 0 0;}
+.guide_text .blue {font-size:11px; color:#0072ca; line-height:13px;}
+.guide_text .ic_orange {background: transparent url('../images/bullet_ic2.png') 0 0 no-repeat; width:12px; height:12px; display:inline-block; float:left; margin:3px 3px 0 0;}
+.guide_text .orange {font-size:11px; color:#ff5a00; line-height:13px;}
+
+
+
+/* <공통> TEXT버튼 모음 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/* 가운데정렬이 필요한 버튼감싸기!!! float:left 때문에 가운데정렬이 안됨 */
+.btn_line_up_center {display:inline-block; *display:inline; *zoom:1;} 
+.btn_line_up_right {float:right ; text-align:right; display:inline-block; *display:inline; *zoom:1;} 
+
+.shop_btn_pack {float:left;}
+.shop_btn_pack span {display:inline-block;}
+.shop_btn_pack a {display:inline-block; cursor:pointer;}
+.shop_btn_pack input {display:inline-block; cursor:pointer; border:none; background:none;
+/* ie7에서 가로값 넓어지는거 잡아줌 */ overflow:visible; 
+/* 모바일에서 인풋버튼 잡아주기 */ -webkit-border-radius:0; -webkit-appearance:none; -webkit-gradient:none; }
+
+
+/* 간격만들기 */
+.shop_btn_pack .blank_3 {margin:3px;} 
+.shop_btn_pack .blank_5 {margin:5px;}
+.shop_btn_pack .blank_10 {margin:10px;}
+
+
+/* A버튼 크기 */
+.shop_btn_pack .small {padding:0 7px; height:25px; line-height:25px; font-size:11px; font-family:dotum; letter-spacing:-1px;}
+.shop_btn_pack .medium {padding:0 15px; height:28px; line-height:28px; font-size:12px; font-weight:bold;}
+.shop_btn_pack .large {padding:0 25px; height:38px; line-height:38px; font-size:15px; font-weight:bold;}
+
+/* 버튼 컬러 */
+.shop_btn_pack .white {color:#5e5a5a!important; border:1px solid #ababab!important; background:#ffffff!important;}
+.shop_btn_pack .white:hover {color:#0072ca!important; border:1px solid #333!important; background:#ffffff!important;}
+
+.shop_btn_pack .gray {color:#ffffff!important; border:1px solid #575757!important; background:#8f959a!important;}
+.shop_btn_pack .gray:hover {color:#ffffff!important; border:1px solid #000000!important; background:#333!important;}
+
+.shop_btn_pack .blue {color:#fff!important; border:1px solid #003abc!important; background:#0072ca!important;}
+.shop_btn_pack .blue:hover {color:#fff!important; border:1px solid #001a54!important; background:#005292!important;}
+
+.shop_btn_pack .red {color:#fff!important; border:1px solid #c10b26!important; background:#f6445e!important;}
+.shop_btn_pack .red:hover {color:#fff!important; border:1px solid #7f0013!important; background:#b2001a!important;}
+
+
+/* 인풋버튼 크기 */
+.shop_btn_pack .input_small {height:27px; font-size:11px; font-family:dotum; letter-spacing:-1px; text-align:center; border:none; background:none; color:#fff; padding:0 7px;}
+.shop_btn_pack .input_medium {height:28px; font-size:12px; font-weight:bold; text-align:center; background:none; color:#fff; padding:0 15px;}
+.shop_btn_pack .input_large {height:38px; font-size:15px; font-weight:bold; text-align:center; background:none; color:#fff; padding:0 25px;}
+
+
+/* 인풋버튼 컬러 */
+.btn_input_white { border:1px solid #d7d7d7!important; background:#ffffff!important;}
+.btn_input_white:hover { border:1px solid #a4a4a4!important; background:#dbdbdb!important;}
+.btn_input_white input {color:#5e5a5a!important;}
+.btn_input_white input:hover {color:#5e5a5a!important;}
+
+.btn_input_gray {border:1px solid #575757!important; background:#8f959a!important;}
+.btn_input_gray:hover {border:1px solid #080808!important; background:#333!important;}
+.btn_input_gray input {color:#ffffff!important;}
+.btn_input_gray input:hover {color:#ffffff!important;}
+
+.btn_input_blue {border:1px solid #003abc!important; background:#0072ca!important;}
+.btn_input_blue:hover {border:1px solid #001a54!important; background:#005292!important;}
+.btn_input_blue input {color:#ffffff!important;}
+.btn_input_blue input:hover {color:#ffffff!important;}
+
+.btn_input_red {border:1px solid #c10b26!important; background:#f6445e!important; }
+.btn_input_red:hover {border:1px solid #7f0013!important; background:#b2001a!important; }
+.btn_input_red input {color:#ffffff!important;}
+.btn_input_red input:hover {color:#ffffff!important;}
+
+
+
+/* <공통> 상태텍스트아이콘 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-------------------------------*/
+.shop_state_pack span {display:inline-block; font-weight:normal; height:17px; line-height:17px; font-size:11px; font-family:dotum; letter-spacing:-1px; color:#fff!important;  padding:0 7px;}
+.shop_state_pack .red {background:#ff365c!important;}
+.shop_state_pack .orange {background:#ff8a00!important;}
+.shop_state_pack .green {background:#86ae00!important;}
+.shop_state_pack .sky {background:#00a7bc!important;}
+.shop_state_pack .blue {background:#0058b4!important;}
+.shop_state_pack .purple {background:#8000ec!important;}
+.shop_state_pack .gray {background:#474747!important;}
+.shop_state_pack .lightgray {background:#aaaaaa!important;}
+
+/* ★★★★★★ 2016-02-22 관리자페이지 추가작업  ~ */
+/* ---------- 상품문의,상품후기 관리자댓글 UI변경 */
+.new_admin_reply {border:1px solid #ccc; margin:10px 5px 5px 40px; background:#eee; position:relative;}
+.new_admin_reply li {list-style:none; padding:10px; border-top:1px solid #ccc; padding-right:120px; position:relative;}
+.new_admin_reply li:first-of-type {border-top:0}
+.new_admin_reply .shape {width:8px; height:8px; border:2px solid #333; position:absolute; left:-20px; top:10px; border-top:0; border-right:0}
+.new_admin_reply .btn_box {position:absolute; right:10px; top:50%; overflow:hidden; margin-top:-14px}
+.new_admin_reply .btn_box .shop_btn_pack {margin:0 2px}
+.new_admin_reply .name {color:#000; font-weight:600; margin-bottom:7px; overflow:hidden;}
+.new_admin_reply .name .txt {float:left; margin-right:18px; position:relative;}
+.new_admin_reply .name .txt:before {content:""; width:1px; height:11px; background:#999; float:left; margin:2px 12px 0 0}
+.new_admin_reply .name .txt:first-of-type:before {display:none;}
+.new_admin_reply .conts {overflow:hidden;}
+.content_section .list_TB tr:hover .new_admin_reply {background:#fff; border:1px solid #666;}
+
+
+
+
+/* 정산용테이블 2015-09-24 */
+.new_partner_name {font-size:15px; font-weight:600}
+.new_partner_id {font-size:13px; margin-top:3px}
+.new_order_data_ctrl {margin-top:10px;}
+
+.new_order_area {background:#e1e1e5;}
+.new_order_data {border:2px solid #656a7d;  margin:10px;}
+.new_order_data table {width:100%; background:#fff;}
+.new_order_data thead td {font-weight:600; background:#a1a8c0; color:#fff; border-top:0 !important; border-left:1px solid #6f7489 !important; border-bottom:1px solid #6f7489 !important}
+.new_order_data thead td:first-of-type {border-left:0 !important}
+.new_order_data tbody td {text-align:center !important; border-top:1px solid #ddd !important; border-bottom:0 !important;}
+.new_order_data tbody td:first-of-type {border-left:0 !important}
+.new_order_data tbody tr:nth-of-type(2n) {background:#fafafa;}
+.new_order_data label {padding:5px}
+.new_order_data .price_box {text-align:right !important}
+.new_order_data tfoot {background:#656a7d;}
+.new_order_data tfoot td {border:0 !important; color:#fff; font-size:13px; padding:15px 8px !important; border-left:1px solid #515567 !important}
+.new_order_data tfoot td:first-of-type {border-left:0 !important;}
+.new_order_data tfoot tr:hover td {background:#656a7d;}
+.new_order_data .item_name {color:#666}
+.new_order_data .user_num {margin-top:5px; font-size:13px;}
+.new_order_data .price_sum {color:#ff0000}
+.new_order_data .price_commiss {color:#159700}
+.new_order_data .price_charge {color:#0075bf}
+
+.new_order_data .hide_txt {display:none; color:#c7c9d4; font-weight:600; height:40px; line-height:40px; border-bottom:1px solid #515567; margin-bottom:10px; }
+.new_order_data .txt_lin2 {line-height:16px;}
+
+.if_order3_closed .hide_txt {display:block}
+.if_order3_closed .new_order_data thead {display:none}
+.if_order3_closed .new_order_data tbody {display:none}
+.if_order3_closed td:hover {background:#515567 !important;}
+
+
+.new_order_data_sum {padding:25px !important; border-top:2px solid #333; background:#fff;}
+.new_order_data_sum .inner_sum_box {display:inline-block}
+.new_order_data_sum .inner_sum_box ul {display:inline-block}
+.new_order_data_sum .inner_sum_box li {display:inline-block; float:left; padding:10px 20px; border-left:1px solid #ccc}
+.new_order_data_sum .inner_sum_box li:hover {background:#eee;}
+.new_order_data_sum .inner_sum_box li:first-of-type {border-left:0}
+.new_order_data_sum .inner_sum_box .txt {color:#000; font-size:15px; font-weight:600;}
+.new_order_data_sum .inner_sum_box .sum {color:#333; font-size:15px; overflow:hidden;}
+.new_order_data_sum .inner_sum_box .value {color:#ff0000; font-size:15px; font-weight:600; position:relative; padding-left:10px; margin-left:10px}
+.new_order_data_sum .inner_sum_box .value:after {content:''; position:absolute; left:0; top:3px; width:1px; height:12px; background:#ccc; }
+
+
+
+
+
+
+/* 2016-05-16 옵션데이터창 수정 */
+.new_option_box {padding:20px;}
+.new_option_box .title_box {text-align:center; font-size:19px; color:#fff; background:#313541; padding:15px 0; border-radius:5px 5px 0 0;}
+.new_option_box .bottom_btn_area {margin-top:20px}
+
+.option_data_top {background:#fff; border:1px solid #ccc; border-top:0; padding:15px 180px 15px 15px; position:relative; overflow:hidden; min-height:70px}
+.option_data_top:before {content:''; width:1px; height:100%; background:#ddd; position:absolute; right:160px; top:0;}
+.option_data_top .btn_box {position:absolute; right:20px; top:50%; width:120px; margin-top:-33px;}
+.option_data_top .btn_box .shop_btn_pack {width:120px; text-align:center; margin-bottom:5px}
+.option_data_top .btn_box .shop_btn_pack a {display:block; padding:0}
+
+.option_data_box {overflow:hidden; background:#eee; border:2px solid #666; margin:20px 0;}
+.option_data_box li {position:relative; border-top:1px dashed #ccc;}
+
+.option_data_box .opt {position:absolute; left:0; top:0; text-align:center; width:100px; padding:10px 0}
+.option_data_box .opt .txt {font-size:13px; font-weight:600; color:#000}
+.option_data_box .opt .shop_btn_pack {float:none; margin-top:5px; display:none}
+
+.option_data_box .value {margin:0 120px 0 100px; background:#fff; padding:15px 10px 15px 15px; border-left:1px solid #ddd; border-right:1px solid #ddd; overflow:hidden; min-height:45px}
+.option_data_box .value .txt_box {display:block; margin:0 0 4px 0; font-size:11px;}
+.option_data_box .value .wrapping_name {float:left; margin-right:5px }
+.option_data_box .value .wrapping_num {float:left; margin-right:5px }
+.option_data_box .value .input_design {line-height:25px; padding:0 5px; border:1px solid #ccc; width:200px; float:left;}
+.option_data_box .value .input_design:focus {border:1px solid #333;}
+.option_data_box .value .input_design:disabled {background:#eee;}
+.option_data_box .value .input_number {width:40px; text-align:right; font-weight:600}
+.option_data_box .value .input_price {width:60px; text-align:right; font-weight:600}
+
+.option_data_box .btn_delete {position:absolute; right:10px; top:10px;}
+.option_data_box .btn_updown {position:absolute; right:50px; top:10px;}
+.option_data_box .btn_updown .shapeup {display:inline-block; width:0; height:0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 6px solid #c52121; margin-top:7px}
+.option_data_box .btn_updown .shapedw {display:inline-block; width:0; height:0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #415685; margin-top:7px}
+.option_data_box .btn_updown .shop_btn_pack:first-child a {border-right:0 !important}
+.option_data_box .btn_add {position:absolute; right:50px; bottom:10px}
+.option_data_box .btn_add a {width:53px; padding:0; text-align:center;}
+.option_data_box .btn_hide {position:absolute; right:10px; bottom:10px; width:36px; height:22px; text-align:center; background:transparent url('../images/addoption_ckecked.png') left bottom no-repeat;}
+.option_data_box .btn_hide input {margin-top:4px; width:0; height:0;;}
+
+.option_data_box li:first-of-type {border-top:0}
+.option_data_box li:hover .value {background:#ddd;}
+.option_data_box .depth_1 {border-top:1px solid #666;}
+.option_data_box .depth_2 {padding-left:100px; background:#f7f7f7 url('../images/next_depth_icon.gif') 50px center no-repeat;}
+.option_data_box .depth_2 .opt {left:100px}
+.option_data_box .depth_3 {padding-left:200px; background:#f7f7f7 url('../images/next_depth_icon.gif') 150px center no-repeat;}
+.option_data_box .depth_3 .opt {left:200px}
+
+.option_data_box .if_nextdepth .opt .shop_btn_pack {display:block}
+.option_data_box .if_nextdepth .wrapping_num {display:none}
+
+.option_data_box .if_option_hide .value {background:#eee;}
+.option_data_box .if_option_hide:hover .value {background:#eee;}
+.option_data_box .if_option_hide .btn_hide {background-position:left top;}
+
+
+
+.option_data_top_type2 {background:#fff; border:1px solid #ccc; border-top:0; position:relative; overflow:hidden;}
+.option_data_top_type2 .txt_box {border-bottom:1px solid #ccc; padding:0 15px; line-height:45px; font-size:15px;  background:#eee; position:relative; font-weight:600}
+.option_data_top_type2 .wrapping {padding:15px 180px 15px 15px; }
+.option_data_top_type2 .btn_ctrl {position:absolute; right:20px; top:50%; margin-top:-16px}
+.option_data_top_type2 .btn_ctrl .shop_btn_pack {width:120px; text-align:center; margin-bottom:5px}
+.option_data_top_type2 .btn_ctrl .shop_btn_pack a {display:block; padding:0}
+.option_data_top_type2:before {content:''; width:1px; height:100%; background:#ddd; position:absolute; right:160px; top:45px;}
+.option_data_top_type2 .btn_box {position:absolute; right:20px; top:50%; width:120px; margin-top:-15px;}
+.option_data_top_type2 .btn_box .shop_btn_pack {width:120px; text-align:center; margin-bottom:5px}
+.option_data_top_type2 .btn_box .shop_btn_pack a {display:block; padding:0}
+.option_data_top_type2 .file_upload {margin-bottom:10px; overflow:hidden;}
+.option_data_top_type2 .btn_ctrl .btn_open {display:none;}
+
+.option_data_top_type2.if_open {border-bottom:0;} 
+.option_data_top_type2.if_open .btn_ctrl .btn_close {display:none}
+.option_data_top_type2.if_open .btn_ctrl .btn_open {display:block}
+.option_data_top_type2.if_open .wrapping {display:none}
+
+.bottom_btn_area .lineup {display:inline-block;}
+.bottom_btn_area .lineup .shop_btn_pack {margin:0 5px}
+
+
+
+
+/* ●●●●●●●●●● 목록 (페이지네이트) */
+.cm_paginate {text-align:center; padding:30px 0 10px 0; overflow:hidden; position:relative; clear:both}
+.cm_paginate a {float:left;}
+.cm_paginate .nextprev {border-top:1px solid #dbdbdb; border-left:1px solid #dbdbdb; border-bottom:1px solid #b0b0b0; float:left; overflow:hidden;}
+.cm_paginate .nextprev .btn {float:left; position:relative; overflow:hidden; height:35px;}
+.cm_paginate .nextprev .btn .ok {display:none;}
+.cm_paginate .nextprev .click .ok {display:block;}
+.cm_paginate .nextprev .click .no {display:none;}
+.cm_paginate .nextprev .ok {width:40px; height:35px; border-right:1px solid #dbdbdb;  background:#fff; float:left;}
+.cm_paginate .nextprev .ok:hover {background:#f5f5f5;}
+.cm_paginate .nextprev .icon {background:transparent url('../images/paginate.png') no-repeat; width:20px; height:20px; position:absolute; top:50%; left:50%; margin:-10px 0 0 -10px}
+.cm_paginate .nextprev .no {width:40px; height:35px; border-right:1px solid #dbdbdb; background:#fff;}
+.cm_paginate .nextprev .ok .ic_first {background-position:0 0}
+.cm_paginate .nextprev .ok .ic_prev {background-position:-20px 0}
+.cm_paginate .nextprev .ok .ic_next {background-position:-40px 0}
+.cm_paginate .nextprev .ok .ic_last {background-position:-60px 0}
+.cm_paginate .nextprev .no .ic_first {background-position:0 -20px; }
+.cm_paginate .nextprev .no .ic_prev {background-position:-20px -20px}
+.cm_paginate .nextprev .no .ic_next {background-position:-40px -20px}
+.cm_paginate .nextprev .no .ic_last {background-position:-60px -20px}
+.cm_paginate .number {float:left; border-top:1px solid #dbdbdb; border-left:1px solid #dbdbdb; border-bottom:1px solid #b0b0b0; margin:0 15px;}
+.cm_paginate .number a {line-height:35px; color:#888; padding:0 15px; font-size:16px; font-family:"calibri" !important; border-right:1px solid #dbdbdb; background:#fff}
+.cm_paginate .number a:hover {text-decoration:underline; background:#f5f5f5}
+.cm_paginate .number .hit {color:#000;}
+.cm_paginate .btn_area {position:absolute; right:0;}
+
+.cm_paginate_large {padding:0 0 80px 0;}
+.cm_paginate_large .nextprev .btn {height:45px;}
+.cm_paginate_large .nextprev .ok {width:55px; height:45px;}
+.cm_paginate_large .nextprev .no {width:55px; height:45px;}
+.cm_paginate_large .number a {line-height:45px; height:45px; padding:0 23px; font-size:20px;}
+
+
+.cm_paginate .lineup {display:inline-block} /* float요소들 정렬시킬때 사용 */
+.cm_paginate a,span {display:inline-block;}

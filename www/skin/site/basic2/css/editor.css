@@ -1,0 +1,38 @@
+
+/* 에디터 Override */
+.editor { background: transparent; margin: 0; }
+.editor {font-family:inherit; color: inherit; font-size: inherit; line-height: inherit; }
+.editor span, .editor b, .editor p, .editor em, .editor strong, .editor div { color: inherit; font-size: inherit; line-height: inherit; }
+.editor p { margin: 0; padding: 0; min-height: 20px; }
+/*.editor ul, .editor ul li { list-style-type: disc; list-style-position: inside;  padding-left:1em; margin-left:0;}*/
+/*.editor ol, .editor ol li { list-style-type: decimal; list-style-position: inside;  padding-left:1em; margin-left:0;}*/
+.editor ul{ list-style-type: disc; list-style-position: inside;  padding-left:1em; margin-left:0;}
+.editor ol { list-style-type: decimal; list-style-position: outside;  padding-left:1em; margin:0 1em;}
+.editor ol li {display:list-item}
+.editor span { display: inline; font-size: inherit; font-style: inherit; font-weight: inherit; }
+.editor em {font-style:italic;}
+.editor b {font-weight:600;font-size:inherit;font-style:inherit;}
+.editor strong {font-weight:600;font-size:inherit;font-style:inherit;}
+.editor img { max-width: 100% !important;}
+.editor table { margin: inherit; padding: inherit; border:inherit; border-collapse:collapse; border-spacing:inherit; background-image:inherit; border-color: inherit; width: 100%; }
+.editor div, .editor img { max-width: 100%!important; }
+
+
+.editor_content { background: transparent; min-height: 350px; padding: 10px; margin: 0; }
+.editor_content { color:#666; word-wrap:break-word; word-break:break-all; }
+.editor_content {font-family:inherit; color: inherit; font-size: inherit; line-height: inherit; }
+.editor_content span, .editor_content b, .editor_content p, .editor_content em, .editor_content strong, .editor_content div { color: inherit; font-size: inherit; line-height: inherit; }
+.editor_content p { margin: 0; padding: 0; font-family:inherit,sans-serif; font-weight:400; }
+/*.editor_content ul, .editor_content ul li { list-style-type: disc; list-style-position: inside;  padding-left:1em; margin-left:0;}*/
+/*.editor_content ol, .editor_content ol li { list-style-type: decimal; list-style-position: inside;  padding-left:1em; margin-left:0;}*/
+.editor_content ul { list-style-type: disc; list-style-position: inside;  padding-left:1em; margin-left:0;}
+.editor_content ol { list-style-type: decimal; list-style-position: outside;  padding-left:1em; margin-left:0;}
+.editor_content span { display: inline; font-size: inherit; font-style: inherit; font-weight: inherit; }
+.editor_content em {font-style:italic;}
+.editor_content b {font-weight:600;font-size:inherit;font-style:inherit;}
+.editor_content strong {font-weight:600;font-size:inherit;font-style:inherit;}
+.editor_content img { max-width: 100% !important;}
+.editor_content table { margin: inherit; padding: inherit; border:inherit; border-collapse:collapse; border-spacing:inherit; background-image:inherit; border-color: inherit; width: 100%; }
+.editor_content div, .editor_content img { max-width: 100%!important; }
+
+

@@ -1,0 +1,2 @@
+ErrorDocument 404 /error404.php
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1

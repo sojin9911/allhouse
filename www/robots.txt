@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /totalAdmin/
+Disallow: /subAdmin/
+Disallow: /include/
+Disallow: /__pma/

@@ -1,0 +1,72 @@
+[13:44:11] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[13:44:11] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[3000] orderId[72825-23062-84280] orderDate[20170725134323] numberOfRecord[21] 5014[0000,] 0031[0,] 0030[0000,] 5041[0052,] 5103[,] 5029[,] 0015[0000,] 0044[A0001Gg0eHPEeviX56yxbqhd3vC247RQYfQMzOqSbpsQmeIfD2393EpiHQT0%2F%2B4Waq6UeZiaparzyGz3KVVem5TYmLthmevvVIFBNjstq6oLZtzXOmbqDuXKy%2BmFV4KCsWardUP9zc%2BsxrdUvBP5uY16fD3mWCoc4fiYAAVxiJTSPUJVbjbzDUfwo28kkk09o83XEDtrqdNWyUZEDDHT5BxgBJ%2FFgmQKdRed2%2FxB8kAGR50vgoheeLWFZ7LvEWm6n9jgt4hF%2FetLcFVy1G%2FBgnogJwWUcqZC%2FEu2zXkd1p14NziI3RQj%2Btp7ROD8wp89hoH3VQXY8Ss5ObI5dD%2BtG85vLnazV%2FTnNeN9zLR52QFPV%2BEbwAsvw%2BF4ieJRTiO2GEvZ%2BHR1SqHGziluxi49jALt2oJjN6GJw%2BG%2BhxyiUJ7rOrN2OXZArVjs%2FxMB2LHcJi8gvkNOebeOekr69wY7wGCSeO6VHHbpocrKk1cyMhz8fk87WQBpcjSLT26ToBNlPFYQ5AqKyxQvS23tyvd4g8O8jN83l5Tx5ljzUd3AzGqyVNiI3WE3x4FBVOGDngnXuQJ%2FbeK3joV8xpDXfusaDwdEly%2FJJ1D%2Fl2PoNOQhXfKtIJys4cVySDuTlwcCOHdInQz7krjrrbx2fnyRz7lH0TMFlFRZpr7iKQW8CCu%2FqnV3mZQds56X8SH49iq7r8vbiSlPU9VYYXnvyMSGIF1qZTGh3KJLkHwrrOZ5dqMDmlJxW5qB4%3D,] 0012[23000,] 0043[20170725134406,] 0070[0000,] 0024[0100,] 5030[,] 0006[,] 0005[112.219.125.10,] 0004[면세 - 수수료 / 배...,] 0035[0000,] 0034[0052,] 0003[ITEM_CODE,] 0002[임동덕,] 0001[cycity,]
+[13:44:11] SERVER CONNECTION SUCCESS!!
+[13:44:11] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[3001] orderId[72825-23062-84280] orderDate[20170725134323] numberOfRecord[15] 0031[0,] 0025[72825-23062-84280,] 5039[,] 5038[,] 1009[00,] 1010[정상 처리 되었습니다.,] 1007[23000,] 1005[20170725134406,] 1004[25134406,] 1003[성공,] 1002[0000,] 1001[2017072513TT008903,] 0036[0,] 0035[0000,] 0034[0052,]
+[13:48:02] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[13:48:02] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725134801] numberOfRecord[0] 1001[2017072513TT008903,] 0012[23000,]
+[13:48:02] SERVER CONNECTION SUCCESS!!
+[13:48:02] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725134801] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[13:48:20] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[13:48:20] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725134819] numberOfRecord[0] 1001[2017072513TT008903,] 0012[23000,]
+[13:48:20] SERVER CONNECTION SUCCESS!!
+[13:48:20] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725134819] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:49:54] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:49:54] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725144954] numberOfRecord[0] 1001[2017072513TT008903,] 0012[23000,]
+[14:49:54] SERVER CONNECTION SUCCESS!!
+[14:49:54] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725144954] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:50:43] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:50:43] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[3000] orderId[58226-34236-35614] orderDate[20170725145009] numberOfRecord[21] 5014[0000,] 0031[0,] 0030[0000,] 5041[0052,] 5103[,] 5029[,] 0015[0000,] 0044[A0001Gg0eHPEeviX56yxbqhd3vC247RQYfQMzOqSbpsQmeIfD2393EpiHQT0%2F%2B4Waq6UeZiaparzyGz3KVVem5TYmLthmevvVIFBNjstq6oLZtzXOmbqDuXKy%2BmFV4KCsWardUP9zc%2BsxrdUvBP5uY16fD3mWCoc4fiYAAVxiJTSPUJVbjbzDUfwo28kkk09o83XEDtrqdNWyUZEDDHT5BxgBJ%2FFgmQKdRed2%2FxB8kAGR50vgoheeLWFZ7LvEWm6n9jgt4hF%2FetLcFVy1G%2FBgnogJwWUcqZC%2FEu2zXkd1p14NziI3RQj%2Btp7ROD8wp89hoH3VQXY8Ss5ObI5dD%2BtG85vLnazV%2FTnNeN9zLR52QFPV%2BEbwAsvw%2BF4ieJRTiO2GEvZ%2BHR1SqHGziluxi49jALt2oJjN6GJw%2BG%2BhxyiUJ7rOrN2OXZArVjs%2FxMB2LHcJi8gvkNOebeOekr69wY7wGCSeO6VHHbpocrKk1cyMhz8fk87WQBpcjSLT26ToBNlPFYQ5AqKyxQvS23tyvd4g8O8jN81GpjkKsSzSj4cC70xkLcsWBdACs0QVAJqUnFvBGctarfMn6nwhIgXEeujCTZcMvz3OOh%2BOyxtcLkkgXPiOVi7g3gkWGC%2BMqLs99dZPW4e8RVcjuObbXaJ1dgAiEqGCoFFVYeuQrhfPqbNj1iGAMv4V1q3SKGeSRkYniZCBTA4rexHu7EVQAYQC6aI4QbNCZfx122ukktHbUxPvi4wa3dik%3D,] 0012[23000,] 0043[20170725145039,] 0070[0000,] 0024[0100,] 5030[,] 0006[tech@onedaynet.co.kr,] 0005[112.219.125.10,] 0004[면세 - 수수료 / 배...,] 0035[0000,] 0034[0052,] 0003[ITEM_CODE,] 0002[임동덕,] 0001[cycity,]
+[14:50:43] SERVER CONNECTION SUCCESS!!
+[14:50:44] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[3001] orderId[58226-34236-35614] orderDate[20170725145009] numberOfRecord[15] 0031[0,] 0025[58226-34236-35614,] 5039[,] 5038[,] 1009[00,] 1010[정상 처리 되었습니다.,] 1007[23000,] 1005[20170725145039,] 1004[25145039,] 1003[성공,] 1002[0000,] 1001[2017072514TT008916,] 0036[0,] 0035[0000,] 0034[0052,]
+[14:50:50] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:50:50] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145049] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:50:50] SERVER CONNECTION SUCCESS!!
+[14:50:50] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145049] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:51:02] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:51:02] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145102] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:51:02] SERVER CONNECTION SUCCESS!!
+[14:51:02] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145102] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:52:01] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:52:01] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145201] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:52:01] SERVER CONNECTION SUCCESS!!
+[14:52:01] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145201] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:52:58] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:52:58] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145258] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:52:58] SERVER CONNECTION SUCCESS!!
+[14:52:58] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145258] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:53:09] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:53:09] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145309] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:53:09] SERVER CONNECTION SUCCESS!!
+[14:53:09] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145309] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:54:20] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:54:20] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145419] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:54:20] SERVER CONNECTION SUCCESS!!
+[14:54:20] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145419] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:54:24] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:54:24] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145424] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:54:24] SERVER CONNECTION SUCCESS!!
+[14:54:24] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145424] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:54:48] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:54:48] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145447] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:54:48] SERVER CONNECTION SUCCESS!!
+[14:54:48] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145447] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:54:56] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:54:56] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[] orderDate[20170725145456] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:54:56] SERVER CONNECTION SUCCESS!!
+[14:54:56] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9201] orderId[] orderDate[20170725145456] numberOfRecord[4] 1003[필수항목 누락,] 1002[0100,] 1009[00,] 1010[주문번호 누락,]
+[14:55:19] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:55:19] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[58226-34236-35614] orderDate[20170725145519] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:55:19] SERVER CONNECTION SUCCESS!!
+[14:55:19] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9001] orderId[58226-34236-35614] orderDate[20170725145519] numberOfRecord[13] 0031[0,] 1022[0050,] 1021[0084,] 5009[씨티카드,] 1009[00,] 5010[국민카드,] 1008[20170725145514,] 1010[정상 처리 되었습니다.,] 1033[23000,] 1004[25145514,] 1003[성공,] 1002[0000,] 1001[2017072514TT008916,]
+[14:55:28] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:55:28] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[58226-34236-35614] orderDate[20170725145528] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:55:28] SERVER CONNECTION SUCCESS!!
+[14:55:28] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9001] orderId[58226-34236-35614] orderDate[20170725145528] numberOfRecord[5] 1003[취소 대상 건 아님,] 1002[0301,] 1001[2017072514TT008916,] 1009[00,] 1010[Status 가 승인성공, 통지 실패 건 아님,]
+[14:55:37] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:55:37] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[58226-34236-35614] orderDate[20170725145537] numberOfRecord[0] 1001[2017072514TT008916,] 0012[23000,]
+[14:55:37] SERVER CONNECTION SUCCESS!!
+[14:55:38] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9001] orderId[58226-34236-35614] orderDate[20170725145537] numberOfRecord[5] 1003[취소 대상 건 아님,] 1002[0301,] 1001[2017072514TT008916,] 1009[00,] 1010[Status 가 승인성공, 통지 실패 건 아님,]
+[14:55:49] IP : [222.122.229.246] PORT : [30900] MODE : [0]
+[14:55:49] REQUEST MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9200] orderId[72825-23062-84280] orderDate[20170725145549] numberOfRecord[0] 1001[2017072513TT008903,] 0012[23000,]
+[14:55:49] SERVER CONNECTION SUCCESS!!
+[14:55:49] RESPONSE MESSAGE :  version[0100] mid[glx_api] serviceCode[0900] command[9001] orderId[72825-23062-84280] orderDate[20170725145549] numberOfRecord[13] 0031[0,] 1022[0050,] 1021[0084,] 5009[씨티카드,] 1009[00,] 5010[국민카드,] 1008[20170725145545,] 1010[정상 처리 되었습니다.,] 1033[23000,] 1004[25145545,] 1003[성공,] 1002[0000,] 1001[2017072513TT008903,]

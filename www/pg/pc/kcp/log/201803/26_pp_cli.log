@@ -1,0 +1,5 @@
+0326-155829 - 16656 - INIpa3QFwT81Q23g - MSG : TX_START - site_cd=[INIpayTest]+tx_cd=[07020000]+ordr_idxx=[39741-69334-36970]+log_level=[3]
+0326-155829 - 16656 - INIpa3QFwT81Q23g - MSG : PG_서버_접속__정상
+0326-155829 - 16656 - INIpa3QFwT81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0326-155829 - 16656 - INIpa3QFwT81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0326-155829 - 16656 - INIpa3QFwT81Q23g - MSG : TX_ENDED - res=[res_cd=RCFOres_msg=FORMAT ERROR(변경정보:변경거래번호)]

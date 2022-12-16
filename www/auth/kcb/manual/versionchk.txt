@@ -1,0 +1,9 @@
+라이브러리 버전 확인 방법
+
+# getconf -a | grep libc
+GNU_LIBC_VERSION                   glibc 2.5
+
+
+-- OS의 라이브러리와 동일하거나 하위버전으로 설치하시면 됩니다.
+
+-- nonstatic 버전을 우선 설치하신 후 테스트 하시고, 라이브러리가 없다는 오류가 발생하면 static 버전으로 설치하시기 바랍니다.

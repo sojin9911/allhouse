@@ -1,0 +1,226 @@
+/*
+	© ONEDAYNET.CO.KR. ALL RIGHTS RESERVED.
+*/
+
+.total_sms {margin-top:30px}
+
+
+
+
+
+
+/* 문자항목 탭 */
+.sms_tab {background:#fff; border-top:1px solid #ccc;}
+.sms_tab ul {display:table; width:100%; box-sizing:border-box; table-layout:fixed; }
+.sms_tab li {border:1px solid #ccc; position:relative; display:table-cell; vertical-align:middle; height:80px; cursor:pointer; padding-bottom:30px; box-sizing:border-box; border-top:0;}
+.sms_tab li:before {content:""; width:1px; height:80px; position:absolute; left:-1px; top:0; background:#ccc;}
+.sms_tab .link {display:block; padding:0 15px; line-height:15px; color:#666; text-align:center; letter-spacing:-1px;}
+.sms_tab .hit_icon {display:none;}
+
+.sms_tab .quick_preview {position:absolute; right:-1px; bottom:79px; width:250px; background:#fff; padding:15px; z-index:555; border:2px solid #999; z-index:10; display:none; box-sizing:border-box;}
+.sms_tab .quick_preview dd {margin-top:10px; padding-top:10px; border-top:1px solid #ddd;  color:#999;}
+.sms_tab .quick_preview dt {color:#999;}
+.sms_tab .quick_preview .edge {display:none;}
+
+.sms_tab .send_check {overflow:hidden; position:absolute; left:0; bottom:0; width:100%; box-sizing:border-box; background:#fafafa;}
+.sms_tab .send_check .icon {background:transparent url('../images/ess.gif') left center no-repeat; position:absolute; left:0; top:0;}
+.sms_tab .send_check span {box-sizing:border-box; position:relative;}
+.sms_tab .send_check strong {position:relative; padding:0 3px; display:inline-block; font-size:11px; height:30px; line-height:28px; letter-spacing:-1px; }
+.sms_tab .send_check .me {color:#aaa; float:left; width:50%; border-top:1px solid #ddd;}
+.sms_tab .send_check .ad {color:#aaa; float:left; width:50%; border-top:1px solid #ddd; border-left:1px solid #eee;}
+.sms_tab .send_check .checked_me {color:#000; font-weight:600;}
+.sms_tab .send_check .checked_ad {color:#000; font-weight:600;}
+.sms_tab .send_check .checked_ad:before {display:none;}
+
+.sms_tab li:hover .quick_preview {display:block;}
+.sms_tab li:hover .link {text-decoration:underline;}
+.sms_tab li:hover .link:after {display:block;}
+.sms_tab .hit {border-bottom:1px solid #e6e9eb; background:#e6e9eb; padding-bottom:0px;}
+.sms_tab .hit .link {text-align:center; font-weight:600; color:#333; font-size:13px;}
+.sms_tab .hit .hit_icon  {display:none;}
+.sms_tab .hit .send_check {display:none}
+.sms_tab .hit .quick_preview {display:none !important}
+
+
+
+
+/* 휴대폰 폼 */
+.sms_phone_wrap {background:#e6e9eb; padding:30px 15px 40px; border:1px solid #ccc; border-top:0; overflow:hidden; text-align:center; position:relative;}
+.sms_phone_wrap .inner_box {display:inline-block; overflow:hidden;}
+.sms_phone_wrap .set_tit {margin-bottom:15px;}
+.sms_phone_wrap .set_tit strong {background:#fff; display:inline-block; width:160px; font-size:14px; letter-spacing:-1px; color:#333; position:relative;}
+.sms_phone_wrap .set_tit strong {border:1px solid #ccc; border-radius:100px; height:35px; line-height:32px; }
+.sms_phone_wrap .set_tit strong:before {content:""; width:100%; height:7px; background:transparent url('../images/new_sms/edge1.gif') center bottom no-repeat; position:absolute; left:0; bottom:-7px;}
+
+
+.sms_phone {width:260px; overflow:hidden; margin:0 7px; float:left; height:505px; background:transparent url('../images/new_sms/phone_box.png') left top no-repeat;}
+.sms_phone *::-webkit-input-placeholder { color: #ccc !important; font-style: italic; font-weight:400 !important;}
+.sms_phone *:-moz-placeholder { color: #ccc !important; font-style: italic; font-weight:400 !important;}
+.sms_phone *::-moz-placeholder { color: #ccc !important; font-style: italic; font-weight:400 !important;}
+.sms_phone *:-ms-input-placeholder { color: #ccc !important; font-style: italic; font-weight:400 !important;}
+
+.sms_phone .bottom {display:none;}
+
+.sms_phone .body {overflow:hidden; background:#fff; border:1px solid #ddd; border-top:0; border-bottom:0; height:450px; margin-top:35px; box-sizing:border-box;}
+.sms_phone .body .inner {background:#fff;}
+.sms_phone .body .fix_box {overflow:hidden; height:330px; box-sizing:border-box; }
+
+.sms_phone .check {background:#fafafa; height:60px; box-sizing:border-box; overflow:hidden; padding:0 15px; padding-top:13px; border-bottom:1px solid #eee;}
+.sms_phone .check label {display:block; position:relative; text-align:left; height:35px; box-sizing:border-box; overflow:hidden; }
+.sms_phone .check label input {position:absolute; left:0; top:50%; margin-top:-5px; z-index:5; color:#666;}
+.sms_phone .check label input {-webkit-appearance:none; appearance:none; opacity: 0; filter: alpha(opacity=0); -ms-filter:alpha(opacity=0);}
+.sms_phone .check label .tx {color:#ccc; line-height:32px; height:35px; padding:0 10px 0 38px; display:block; box-sizing:border-box; white-space:nowrap; font-size:14px; letter-spacing:-1px;}
+.sms_phone .check label .tx  {background:rgba(0,0,0,0.05); border-radius:100px; }
+.sms_phone .check label .icon {width:19px; height:19px; background:transparent url('../images/new_sms/phone_label.png') left center no-repeat; position:absolute; left:10px; top:8px; box-sizing:border-box;}
+.sms_phone .check label input:checked+ .tx {color:#000 !important; font-weight:600; box-shadow:inset 1px 1px 1px rgba(0,0,0,0.2);}
+.sms_phone .check label input:checked+ .tx .icon {background-position:right center !important;}
+
+.sms_phone .title_box {box-sizing:border-box; overflow:hidden;}
+.sms_phone .title_box .input_design {border:0; line-height:38px !important; height:40px; text-align:center; width:100%; color:#333; font-weight:600; border-bottom:1px solid #ddd; }
+.sms_phone .title_box .input_design {letter-spacing:-0.5px; font-size:14px; padding:0 10px; box-sizing:border-box;}
+
+.sms_phone .img_box {position:relative; margin-bottom:10px;}
+.sms_phone .img_box img {max-width:100%}
+.sms_phone .img_box .btn_delete {position:absolute; right:-5px; top:-5px; width:21px; height:21px; background:transparent url('../images/new_sms/btn_img_delete.png') left top no-repeat;}
+.sms_phone .img_box .btn_delete img {display:none;}
+.sms_phone .message_box {overflow:hidden;}
+.sms_phone .message_box textarea {width:100%; background:none; border:0; font-size:14px; letter-spacing:-0.5px; color:#333; line-height:1.4;}
+.sms_phone .message_box textarea {box-sizing:border-box; min-height:150px; max-height:330px; padding:15px 20px;}
+.sms_phone .message_box textarea:focus {color:#333}
+
+.sms_phone .total_box {border-top:1px solid #ddd; position:relative; box-sizing:border-box; padding:0 20px;}
+.sms_phone .total_box dl {display:table; width:100%; box-sizing:border-box; table-layout:fixed;}
+.sms_phone .total_box dt,
+.sms_phone .total_box dd {display:table-cell; vertical-align:middle; text-align:left; height:60px;}
+.sms_phone .total_box dd {width:40px; text-align:right}
+.sms_phone .total_box .byte {font-size:14px; font-family:calibri; color:#f40000; }
+.sms_phone .total_box .byte strong {font-weight:600;}
+.sms_phone .total_box .file_box {overflow:hidden; }
+.sms_phone .total_box .btn_rollback {background:transparent url('../images/new_sms/rollback.png') center center no-repeat; width:23px; height:35px; line-height:200; overflow:hidden;}
+
+/* 인풋파일 file 눈속임디자인  */
+.sms_phone .input_file_sms {overflow:hidden; position:relative; height:35px; width:26px; cursor:pointer !important; display:inline-block;}
+.sms_phone .input_file_sms:first-child {margin-top:0}
+.sms_phone .input_file_sms .fakeFileTxt {float:left; width:26px; height: 35px; line-height:300; border:0; background:#fff; overflow:hidden; opacity: 0; filter: alpha(opacity=0); -ms-filter:alpha(opacity=0);}
+.sms_phone .input_file_sms .fileDiv {background:#fff; width:100px; height:100%; overflow: hidden; }
+.sms_phone .input_file_sms .buttonImg { width:100%; height:100%; position:absolute; top:0; right:0; color:#fff; border:0; font-size:13px; font-weight:500;  cursor:pointer !important;}
+.sms_phone .input_file_sms .buttonImg {background:transparent url('../images/new_sms/btn_file.png') left center no-repeat; line-height:200;}
+.sms_phone .input_file_sms .buttonImg_delete { display: none; }
+.sms_phone .input_file_sms .realFile {cursor:pointer !important; opacity:0; filter: alpha(opacity=0); -ms-filter: "alpha(opacity=0)"; -khtml-opacity: 0; -moz-opacity: 0;font-size:0;}
+.sms_phone .input_file_sms .realFile {position:absolute; right:0px; top:0px; width:100%; font-size:200px; height:100%; }
+.sms_phone .sms_phone .input_file_sms.old-ie { height: 34px; border-top: 1px solid #eee; }
+.sms_phone .input_file_sms.old-ie .buttonImg {width:20%; font-size: 0; background-position: center center; right: 20%; padding: 0;}
+.sms_phone .input_file_sms.old-ie .buttonImg_delete {display: block; right: 0; top: 0; width: 20%; height: 100%; position: absolute; padding: 0; font-size: 0;}
+.sms_phone .input_file_sms.old-ie .buttonImg_delete  {background:transparent url('../images/new_sms/btn_file_delete.png') center center no-repeat; z-index: 100;}
+
+
+
+.if_user {float:left;}
+.if_admin {float:left; margin-left:40px;}
+
+@media screen and (max-width:1550px) {
+	.if_admin {margin-left:10px;}
+}
+
+
+
+.sms_phone.kakao_phone {background:transparent url('../images/new_sms/phone_box2.png') left top no-repeat;}
+.sms_phone.kakao_phone .check {background:#ffef00; border-bottom:1px solid #ffef00;}
+.sms_phone.kakao_phone .check label .tx {color:#b3a21d; background:rgba(73,51,52,0.07);}
+.sms_phone.kakao_phone .check label input:checked+ .tx { color:#493334 !important;}
+.sms_phone.kakao_phone .title_box.tit {padding:0px; margin-bottom:10px;}
+.sms_phone.kakao_phone .title_box.tit .input_design {background:#fafafa;}
+.sms_phone.kakao_phone .title_box.code {padding:0 20px;}
+.sms_phone.kakao_phone .title_box.code .input_design {font-size:13px; border-color:#eee;}
+.sms_phone.kakao_phone .title_box.code:last-of-type .input_design {border-bottom:0;}
+
+
+
+
+
+/* 치환자 */
+.sms_code {border:1px solid #ccc; border-top:0;}
+.sms_code .inner_box {display:table; width:100%; box-sizing:border-box; table-layout:fixed;}
+.sms_code .code_tit {color:#333; font-size:13px; font-weight:600; padding:20px 0;letter-spacing:-1px; border-right:1px solid #ddd; box-sizing:border-box;}
+.sms_code .code_tit {display:table-cell; text-align:center; width:160px; vertical-align:middle;}
+.sms_code ul {display:table-cell; vertical-align:middle; padding:20px 30px; }
+.sms_code li {cursor: move; list-style:none; float:left; background:#eee; border:1px solid #ddd; border-radius:100px; box-sizing:border-box; letter-spacing:-1px;}
+.sms_code li {height:27px; line-height:24px; line-height:23px\0; margin:3px; padding:0 15px; }
+.sms_code li strong {letter-spacing:0px;}
+
+.sms_bottom {overflow:hidden; background:#fff; border:1px solid #ccc; border-top:0; padding:25px 30px;}
+
+
+
+
+
+
+
+
+
+
+
+/* 개별적으로 보내는 폼추가 */
+.if_sendpage {margin-top:0px;}
+.if_sendpage .sms_phone_wrap {padding:0px; border-top:1px solid #ccc;}
+.if_sendpage .send_layout {display:table; box-sizing:border-box; }
+.if_sendpage .send_layout .left,
+.if_sendpage .send_layout .right {display:table-cell; vertical-align:top;}
+.if_sendpage .send_layout .left {background:#fff; width:500px; border-right:1px solid #ccc;}
+.if_sendpage .send_layout .right {padding:40px 30px;}
+.if_sendpage .sms_phone .title_box .input_design {background:#fafafa;}
+.if_sendpage .sms_phone .body .fix_box {height:349px;}
+.if_sendpage .sms_phone .message_box textarea {height:349px;}
+
+.sms_send {overflow:hidden;}
+.sms_send .button_box {}
+.sms_send .button_box *{width:100%; text-align:center;}
+
+.sms_send .title {font-size:13px; color:#333; font-weight:600; letter-spacing:-1.5px; margin-bottom:10px;}
+.sms_send .title strong {color:#f40000;}
+
+.sms_send .send_to {text-align:center; overflow:hidden; padding:20px 30px; padding-bottom:0px;}
+.sms_send .send_to dl {display:table; width:100%; box-sizing:border-box; table-layout:fixed; position:relative; margin-bottom:10px;}
+.sms_send .send_to dt,
+.sms_send .send_to dd {display:table-cell; vertical-align:top; position:relative; box-sizing:border-box;}
+.sms_send .send_to dt {padding-right:20px;}
+.sms_send .send_to dd {padding-left:20px;}
+.sms_send .send_to .edge {width:30px; height:130px; background:transparent url('../images/new_sms/send.gif') center center no-repeat; position:absolute; right:-15px; top:30px;}
+.sms_send .send_to .edge {opacity: 0.5; filter: alpha(opacity=50); -ms-filter:alpha(opacity=50);}
+
+.sms_send .this_btn {margin-top:10px; overflow:hidden; text-align:center;}
+.sms_send .this_btn .c_btn {width:100%;}
+.sms_send .this_btn .c_btn input {width:100%;}
+
+.sms_send .send_to .input_phone {height:130px; line-height:20px; width:100%; background:#f5f5f5; border:1px solid #ddd; box-sizing:border-box; padding:10px; }
+.sms_send .send_to .input_phone {font-size:14px; text-align:center; color:#333; overflow:auto;}
+
+.sms_send .send_to .result {overflow:hidden;}
+.sms_send .send_to .result select {width:100%; background:#f5f5f5; border:1px solid #ddd; overflow:auto; height:130px; box-sizing:border-box; text-align:center; float:none;}
+.sms_send .send_to .result select {font-size:14px !important; color:#333; font-weight:600; padding:10px;}
+
+.sms_send .send_to .total {position:relative; height:25px; line-height:25px; text-align:left; letter-spacing:-1px; font-size:13px; margin-top:5px;}
+.sms_send .send_to .total b {color:#ff0000; font-weight:800}
+.sms_send .send_to .total .btn_delete {position:absolute; right:0; top:0;  height:25px; line-height:25px; background:#a1a1a2; color:#fff; padding:0 10px; font-weight:600; font-size:11px;}
+.sms_send .send_to .total .btn_delete:hover {background:#333}
+
+.sms_send .send_reserve {overflow:hidden; padding:0 30px; margin-top:30px;}
+.sms_send .send_reserve dl {overflow:hidden; border:1px solid #ddd;}
+.sms_send .send_reserve dt {background:#fafafa; position:relative;}
+.sms_send .send_reserve dt:before {content:""; width:100%; height:1px; background:#ddd; position:absolute; left:0; bottom:-1px;}
+.sms_send .send_reserve dd {padding:5px; overflow:hidden; display:inline-block;}
+.sms_send .send_reserve label {padding:0 15px; font-weight:600; font-size:13px; cursor:pointer; line-height:11px; letter-spacing:-1px; color:#333; height:45px; line-height:45px; line-height:43px\0;}
+.sms_send .send_reserve label input {margin:17px 5px 0 0; margin-top:16px\0;}
+
+.sms_send .send_reserve select {float:left; padding:0px; font-size:12px; border:1px solid #ccc; width:55px; border:0; background-color:transparent; margin:0px; color:#333;}
+.sms_send .send_reserve .unit {float:left; line-height:25px; font-size:12px; color:#888;}
+.sms_send .send_reserve .time {float:left; box-sizing:border-box; border:1px solid #ddd; overflow:hidden; padding:0 5px 0 7px; margin:0 4px;}
+.sms_send .send_reserve .box {overflow:hidden; padding:5px 0;}
+.sms_send .send_reserve .box strong {float:left; line-height:25px; font-size:12px; color:#333; font-weight:600; margin-top:2px; margin-right:5px;}
+
+.sms_send .send_from {text-align:center; overflow:hidden; padding:0 30px; margin-top:30px; border-top:1px solid #ccc;;}
+.sms_send .send_from dt {color:#000; font-size:17px; font-weight:600; padding:15px 10px;}
+.sms_send .send_from dt strong {letter-spacing:-2px; color:#999;}
+.sms_send .send_from .c_btn {margin:0px;  width:100%;}
+.sms_send .send_from .c_btn input { width:100%;}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+	<title><![CDATA[일반형]]></title><!-- 게시판의 이름 -->
+	<type><![CDATA[basic]]></type> <!-- 게시판의 유형 -->
+	<info><![CDATA[일반형 게시판 입니다.]]></info><!-- 게시판 설명 -->
+	<file><![CDATA[true]]></file><!-- 파일첨부기능 사용여부 -->
+	<images><![CDATA[false]]></images><!-- 이미지 첨부 사용여부 -->
+	<date><![CDATA[false]]></date> <!-- 기간옵션 사용여부 -->
+</skin>

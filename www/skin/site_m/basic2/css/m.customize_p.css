@@ -1,0 +1,21 @@
+
+/*
+	[프로그램팀 맞춤제작 및 수정 CSS]
+
+	copyright(c) 상상너머·원데이넷 all rights reserved.
+	허용된 라이센스이외 무단도용재배포를 금합니다.
+
+	※ css 추가 시, 반드시 날짜와 작업자 이니셜을 기재바랍니다.
+*/
+
+/* 2018-10-04 SSJ :: 본인인증 사용 추가 */
+.c_form .input_box.auth .c_btn {float:left; width:110px;}
+.c_form .input_box.auth .input_design {width:260px;}
+/* horiz */
+@media screen and (max-width:650px) {
+    .c_form .input_box.auth .input_design {width:100%;}
+    .c_form .input_box.auth .c_btn {margin-left:0; width:100%;}
+}
+
+/* 상품후기 이미지 수정 kms 2019-08-02 */
+.c_board_list .thumb img {min-height:80px;}

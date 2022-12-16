@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+	<date>2017-11-22</date>
+	<title><![CDATA[하이센스 3.0 베이직 스킨 2]]></title><!-- 사이트 스킨 이름 -->
+	<info><![CDATA[PC 사이트 전체 사이즈 : 1,050픽셀]]></info><!-- 사이트 스킨 설명(엔터로 구분) -->
+
+
+
+	<!-- 사이트 기본정보 -->
+	<default>
+		<!-- 사이트 컨텐츠 크기 -->
+		<pc_content_width>1050</pc_content_width>
+		<mo_content_width>1000</mo_content_width>
+	</default>
+
+
+
+	<!-- 상품정보 -->
+	<product>
+		<!-- 상품컨텐츠 영역크기::사이트 컨텐츠 크기 -->
+		<pc_content_width>1050</pc_content_width>
+		<mo_content_width>1000</mo_content_width>
+
+		<!-- 대표이미지(자동등록) 크기 -->
+		<main_image_width>470</main_image_width>
+		<main_image_height>547</main_image_height>
+
+		<!-- 리스트 크기 -->
+		<list_image_width>344</list_image_width>
+		<list_image_height>400</list_image_height>
+
+		<!-- 상세이미지크기 -->
+		<detail_image_width>470</detail_image_width>
+		<detail_image_height>547</detail_image_height>
+
+		<!-- 썸네일이미지 크기 -->
+		<thumb_image_width>70</thumb_image_width>
+		<thumb_image_height>81</thumb_image_height>
+
+		<!-- 상세페이지 관련상품 노출개수 설정  -->
+		<config_relative_cnt>
+			<!-- PC:순서에따라 키값변경(노출개수에따른 css적용여부체크) -->
+			<pc>6</pc><pc>5</pc>
+			<!-- MOBILE:순서에따라 키값변경(노출개수에따른 css적용여부체크) -->
+			<mo>2</mo><mo>1</mo>
+		</config_relative_cnt>
+	</product>
+
+
+
+	<!-- 카테고리 정보 -->
+	<category>
+		<!-- 상단이미지 -->
+		<pc_image_width>1590</pc_image_width><!-- PC::카테고리 상단::상품상단 이미지::off이면 사용안함 -->
+		<mo_image_width>1000</mo_image_width><!-- MOBILE::카테고리 상단::상품상단 이미지::off이면 사용안함 -->
+
+		<!-- 상품리스트 진열 설정 -->
+		<pc_list_depth>6,5</pc_list_depth><!-- PC::상품 진열 단수 리스트 + 타입별 상품 진열 -->
+		<pc_list_depth_default>6</pc_list_depth_default><!-- PC::상품 진열 기본 단수 -->
+		<mo_list_depth>2,1</mo_list_depth><!-- MOBILE::상품 진열 단수 리스트 + 타입별 상품 진열 -->
+		<mo_list_depth_default>2</mo_list_depth_default><!-- MOBILE::상품 진열 기본 단수 -->
+
+		<!-- 베스트 상품 진열 설정 -->
+		<pc_best_depth>6,5</pc_best_depth><!-- PC::상품 진열 단수 리스트 -->
+		<pc_best_depth_default>6</pc_best_depth_default><!-- PC::상품 진열 기본 단수 -->
+		<mo_best_depth>2,1</mo_best_depth><!-- MOBILE::상품 진열 단수 리스트 --><!-- SSJ : (내부패치)스킨2 모바일 2,1로 변경 : 2021-03-10 -->
+		<mo_best_depth_default>2</mo_best_depth_default><!-- MOBILE::상품 진열 기본 단수 -->
+	</category>
+</skin>

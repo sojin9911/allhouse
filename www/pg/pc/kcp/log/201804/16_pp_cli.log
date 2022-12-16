@@ -1,0 +1,60 @@
+0416-170545 -  5655 - T00004GH4i81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[70819-40178-45059]+log_level=[3]
+0416-170545 -  5655 - T00004GH4i81Q23g - MSG : PG_서버_접속__정상
+0416-170545 -  5655 - T00004GH4i81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-170545 -  5655 - T00004GH4i81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-170545 -  5655 - T00004GH4i81Q23g - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=70819-40178-45059tno=20180416939316app_time=20180416170545amount=3002bk_mny=3002coupon_mny=0res_tax_mny=2729res_free_mny=0res_vat_mny=273res_tax_flag=TG03bk_tid=7187420bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03escw_yn=Ncash_authno=590086822cash_no=20180416876171van_apptime=20180416170545mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1138521083]
+0416-170855 -  5894 - 20180416939316   - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0416-170855 -  5894 - 20180416939316   - MSG : PG_서버_접속__정상
+0416-170855 -  5894 - 20180416939316   - MSG : PG_서버_요청_전문_전송__정상
+0416-170857 -  5894 - 20180416939316   - MSG : PG_서버_응답_전문_수신__정상
+0416-170857 -  5894 - 20180416939316   - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=70819-40178-45059bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03tno=20180416939316bk_tid=7187420amount=3002bk_mny=3002coupon_mny=0app_time=20180416170545mod_seq_no=20180416673671mod_time=20180416170856]
+0416-170857 -  5897 - T00004GH8v81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[07020000]+ordr_idxx=[70819-40178-45059]+log_level=[3]
+0416-170857 -  5897 - T00004GH8v81Q23g - MSG : PG_서버_접속__정상
+0416-170857 -  5897 - T00004GH8v81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-170858 -  5897 - T00004GH8v81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-170858 -  5897 - T00004GH8v81Q23g - MSG : TX_ENDED - res=[res_cd=RC21res_msg=중복취소 거래]
+0416-171010 -  6057 - T00004GH9J81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[45177-12758-84420]+log_level=[3]
+0416-171010 -  6057 - T00004GH9J81Q23g - MSG : PG_서버_접속__정상
+0416-171010 -  6057 - T00004GH9J81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-171010 -  6057 - T00004GH9J81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-171010 -  6057 - T00004GH9J81Q23g - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=45177-12758-84420tno=20180416939317app_time=20180416171010amount=3002bk_mny=3002coupon_mny=0res_tax_mny=2729res_free_mny=0res_vat_mny=273res_tax_flag=TG03bk_tid=6140762bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03escw_yn=Ncash_authno=590086826cash_no=20180416876173van_apptime=20180416171010mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1138521083]
+0416-171436 -  6383 - 20180416939317   - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0416-171436 -  6383 - 20180416939317   - MSG : PG_서버_접속__정상
+0416-171436 -  6383 - 20180416939317   - MSG : PG_서버_요청_전문_전송__정상
+0416-171437 -  6383 - 20180416939317   - MSG : PG_서버_응답_전문_수신__정상
+0416-171437 -  6383 - 20180416939317   - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=45177-12758-84420bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03tno=20180416939317bk_tid=6140762amount=3002bk_mny=3002coupon_mny=0app_time=20180416171010mod_seq_no=20180416673672mod_time=20180416171437]
+0416-171623 -  6595 - T00004GHEu81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[31627-22131-70592]+log_level=[3]
+0416-171623 -  6595 - T00004GHEu81Q23g - MSG : PG_서버_접속__정상
+0416-171623 -  6595 - T00004GHEu81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-171623 -  6595 - T00004GHEu81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-171623 -  6595 - T00004GHEu81Q23g - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=31627-22131-70592tno=20180416939320app_time=20180416171623amount=3002bk_mny=3002coupon_mny=0res_tax_mny=2729res_free_mny=0res_vat_mny=273res_tax_flag=TG03bk_tid=8433505bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03escw_yn=Ncash_authno=590086828cash_no=20180416876174van_apptime=20180416171623mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1138521083]
+0416-171715 -  6639 - T00004GHEu81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[31627-22131-70592]+log_level=[3]
+0416-171715 -  6639 - T00004GHEu81Q23g - MSG : PG_서버_접속__정상
+0416-171715 -  6639 - T00004GHEu81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-171716 -  6639 - T00004GHEu81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-171716 -  6639 - T00004GHEu81Q23g - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=31627-22131-70592tno=20180416939321app_time=20180416171716amount=3002bk_mny=3002coupon_mny=0res_tax_mny=2729res_free_mny=0res_vat_mny=273res_tax_flag=TG03bk_tid=8849525bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03escw_yn=Ncash_authno=590086829cash_no=20180416876175van_apptime=20180416171716mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1138521083]
+0416-175938 -  9410 - 20180416939320   - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0416-175938 -  9410 - 20180416939320   - MSG : PG_서버_접속__정상
+0416-175938 -  9410 - 20180416939320   - MSG : PG_서버_요청_전문_전송__정상
+0416-175939 -  9410 - 20180416939320   - MSG : PG_서버_응답_전문_수신__정상
+0416-175939 -  9410 - 20180416939320   - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=31627-22131-70592bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03tno=20180416939320bk_tid=8433505amount=3002bk_mny=3002coupon_mny=0app_time=20180416171623mod_seq_no=20180416673682mod_time=20180416175938]
+0416-175939 -  9412 - T00004GHxd81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[07020000]+ordr_idxx=[31627-22131-70592]+log_level=[3]
+0416-175939 -  9412 - T00004GHxd81Q23g - MSG : PG_서버_접속__정상
+0416-175939 -  9412 - T00004GHxd81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-175940 -  9412 - T00004GHxd81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-175940 -  9412 - T00004GHxd81Q23g - MSG : TX_ENDED - res=[res_cd=RC21res_msg=중복취소 거래]
+0416-180507 -  9715 - T00004GI4J81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[00100000]+ordr_idxx=[98903-11314-01231]+log_level=[3]
+0416-180507 -  9715 - T00004GI4J81Q23g - MSG : PG_서버_접속__정상
+0416-180507 -  9715 - T00004GI4J81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-180508 -  9715 - T00004GI4J81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-180508 -  9715 - T00004GI4J81Q23g - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=98903-11314-01231tno=20180416939341app_time=20180416180508amount=3002bk_mny=3002coupon_mny=0res_tax_mny=2729res_free_mny=0res_vat_mny=273res_tax_flag=TG03bk_tid=8671909bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03escw_yn=Ncash_authno=590086833cash_no=20180416876177van_apptime=20180416180508mcht_taxno=1138521083bizx_numb=20000042van_cd=VNKFmall_taxno=1138521083]
+0416-182813 - 10517 - 20180416939341   - MSG : TX_START - site_cd=[T0000]+tx_cd=[00200000]+ordr_idxx=[]+log_level=[3]
+0416-182813 - 10517 - 20180416939341   - MSG : PG_서버_접속__정상
+0416-182813 - 10517 - 20180416939341   - MSG : PG_서버_요청_전문_전송__정상
+0416-182814 - 10517 - 20180416939341   - MSG : PG_서버_응답_전문_수신__정상
+0416-182814 - 10517 - 20180416939341   - MSG : TX_ENDED - res=[res_cd=0000res_msg=정상처리res_en_msg=processing completedtrace_no=pay_method=PABKorder_no=98903-11314-01231bank_code=BK03bank_name=기업은행bank_com_type=0bank_com_code=03tno=20180416939341bk_tid=8671909amount=3002bk_mny=3002coupon_mny=0app_time=20180416180508mod_seq_no=20180416673685mod_time=20180416182813]
+0416-182814 - 10518 - T00004GISE81Q23g - MSG : TX_START - site_cd=[T0000]+tx_cd=[07020000]+ordr_idxx=[98903-11314-01231]+log_level=[3]
+0416-182814 - 10518 - T00004GISE81Q23g - MSG : PG_서버_접속__정상
+0416-182814 - 10518 - T00004GISE81Q23g - MSG : PG_서버_요청_전문_전송__정상
+0416-182815 - 10518 - T00004GISE81Q23g - MSG : PG_서버_응답_전문_수신__정상
+0416-182815 - 10518 - T00004GISE81Q23g - MSG : TX_ENDED - res=[res_cd=RC21res_msg=중복취소 거래]

@@ -1,0 +1,30 @@
+
+/*
+	[디자인팀 맞춤제작 및 수정 CSS]
+
+	copyright(c) 상상너머·원데이넷 all rights reserved.
+	허용된 라이센스이외 무단도용재배포를 금합니다.
+
+	※ css 추가 시, 반드시 날짜와 작업자 이니셜을 기재바랍니다.
+*/
+
+
+
+/* 로그인 화면 패칙 */
+.if_none_member {margin-top:-21px; background:#fff; position:relative;}
+.if_none_member .ul {width:50%; margin:0 auto; border-top:1px solid #ddd;}
+.if_none_member:before {content:""; width:30%; height:30px; background:#fff; position:absolute; right:0; top:-40px;}
+
+
+/* 주문/결제 :: KHY 2021-06-10 */
+.c_form .pay_select {display: block; overflow: hidden; margin: 0 -5px; width: auto;}
+.c_form .pay_select li {display: inline-block; float: left; width: 25%; padding: 0 5px; box-sizing: border-box;}
+.c_form .pay_select li:nth-of-type(4n)+ li {clear: both;}
+.c_form .pay_select li:nth-of-type(4)~ li {margin-top: 10px;}
+.c_form .pay_select .lineup {border-color: #e5e5e5;}
+.c_form .use_kakaopay .lineup {background: transparent url('../images/c_img/ic_pay_kakao.png') center 21px no-repeat; background-size: auto 15px !important;}
+.c_form .use_naverpay .lineup {background: transparent url('../images/c_img/ic_pay_naver.png') center 21px no-repeat; background-size: auto 17px !important;}
+
+
+/* // JJC : 간편결제 - 페이플 : 2021-06-05 */
+.c_form .use_payple .lineup {background:transparent url('../images/c_img/ic_pay_payple.png') center 20px no-repeat; background-size:auto 15px;}

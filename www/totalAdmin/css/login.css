@@ -1,0 +1,62 @@
+/*
+	© ONEDAYNET.CO.KR. ALL RIGHTS RESERVED. 
+*/
+
+
+
+/* ●●● 로그인 */
+.login_wrap {position:relative; width:100%; height:100%; overflow:hidden; min-height:500px; background:#fff;}
+.login_wrap .login_sitename {text-align:center; font-size:27px; color:#333; letter-spacing:-3px; margin-bottom:20px}
+.login_wrap li {list-style:none;}
+.login_wrap .floating_box {width:881px; position:absolute; left:50%; top:50%; margin:-250px 0 0 -440px; z-index:99; background:#fff;}
+.login_wrap .floating_box .table {display:table; width:100%; table-layout:fixed; box-sizing:border-box; height:400px; text-align:center;  border:1px solid #353c43; box-sizing:border-box;}
+.login_wrap .floating_box .left_box {display:table-cell; vertical-align:middle; box-sizing:border-box; background:#353c43; padding:0 60px;}
+.login_wrap .floating_box .right_box {display:table-cell; vertical-align:middle; box-sizing:border-box; border-left:0; padding:0 59px 0 60px;}
+.login_wrap .visual {background:transparent url('../images/login.png') center 4px no-repeat; padding-top:99px; padding-top:98px\0;}
+.login_wrap .visual .tt {color:#fff; font-weight:600; font-size:35px; padding-bottom:13px; padding-bottom:12px\0; border-bottom:1px solid #5d6369; margin-bottom:16px}
+.login_wrap .visual .st {color:#868a8e; margin-bottom:4px; letter-spacing:-1px;}
+.login_wrap .visual .cs {color:#868a8e; letter-spacing:0.5px;}
+.login_wrap .visual .shop_go {width:144px; height:33px; border:1px solid #5d6369; box-sizing:border-box; line-height:29px; line-height:29px\0; margin-top:36px}
+.login_wrap .visual .shop_go .txt {color:#9a9ea1; padding-right:8px; position:relative; letter-spacing:-1px;}
+.login_wrap .visual .shop_go .txt:before {content:""; position:absolute; right:0; top:50%; width:4px; height:7px; background:transparent url('../images/login_arrow.gif') left top no-repeat; margin-top:-3px; margin-top:-2px\0; }
+.login_wrap .form_box .tt {color:#333; font-size:21px; letter-spacing:-2px; margin:-7px 0 14px; overflow:hidden;}
+
+/* 통합 관리자, 입점 관리자 */
+.login_wrap .log_tab {overflow:hidden; padding-top:5px; position:relative;}
+.login_wrap .log_tab:before {content:""; position:absolute; left:0; bottom:0; width:100%; height:1px; background:#ced2d6; z-index:1}
+.login_wrap .log_tab .tab_btn {float:left; width:50%; display:block; position:relative; text-align:center; background:#f4f5f7; height:35px; box-sizing:border-box; border:1px solid #ced2d6; border-left:0; border-bottom:0; margin-top:0 !important; overflow:visible;}
+.login_wrap .log_tab .tab_btn:first-child {border-left:1px solid #ced2d6;}
+.login_wrap .log_tab .tab_btn input {position:absolute; left:3px; top:50%; margin-top:-5px; z-index:5}
+.login_wrap .log_tab .tab_btn input {-webkit-appearance:none; appearance:none; opacity: 0; filter: alpha(opacity=0);}
+.login_wrap .log_tab .tab_btn input {opacity: 1\9; filter: alpha(opacity=100)\9;}
+.login_wrap .log_tab .tab_btn .tab {display:block; height:34px; line-height:31px; letter-spacing:-1px; color:#929394;}
+.login_wrap .log_tab .tab_btn input:checked+ .tab { background:#fff; border-bottom:0; position:relative; color:#333; font-weight:600;}
+.login_wrap .log_tab .tab_btn input:checked+ .tab:before {content:""; position:absolute; left:-1px; top:-6px; width:100%; height:6px; background:#fff; border:1px solid #ced2d6; border-bottom:0;}
+.login_wrap .log_tab .tab_btn input:checked+ .tab:after {content:""; position:absolute; left:0px; bottom:-1px; width:100%; height:2px; background:#fff; z-index:2}
+
+.login_wrap .form_box .log_box {margin-top:20px;}
+.login_wrap .form_box li {position:relative; margin-top:5px; }
+.login_wrap .form_box input.design {border:1px solid #b5b9bd; height:50px; box-sizing:border-box; width:100%; padding-left:68px; font-size:13px; padding-right:30px; float:none;}
+.login_wrap .form_box input.design:focus {border-color:#adadad;}
+.login_wrap .form_box input:placeholder {color:#adadad !important}
+.login_wrap .form_box input::-webkit-input-placeholder {color:#adadad !important}
+.login_wrap .form_box input:-ms-input-placeholder {color:#adadad !important}
+.login_wrap .form_box input:-moz-placeholder {color:#adadad !important}
+.login_wrap .form_box .tx {height:48px; width:47px; box-sizing:border-box;}
+.login_wrap .form_box .tx {position:absolute; left:1px; top:1px; }
+.login_wrap .form_box .tx.id {background:#f4f5f7 url('../images/log_id.gif') center center no-repeat;}
+.login_wrap .form_box .tx.pw {background:#f4f5f7 url('../images/log_pw.gif') center center no-repeat;}
+
+
+/* 비밀번호 분실 가이드 */
+.login_wrap .log_guide {position:absolute; right:0px; top:50%;  margin-top:-18px; }
+.login_wrap .log_guide .guide_btn {width:16px; height:16px; background:transparent url('../images/log_guide.gif') center center no-repeat; padding:10px; display:block}
+.login_wrap .log_guide .guide_box {display:none; position:absolute; right:-112px; top:36px; width:258px; text-align:left; background:#fff; border:1px solid #353c43; box-sizing:border-box; padding:17px 20px 21px; letter-spacing:-1px; z-index:100; line-height:18px;}
+.login_wrap .log_guide .guide_box:before {content:""; position:absolute; left:50%; top:-6px; background:transparent url('../images/log_tip.gif') left top no-repeat; margin-left:-6px; width:12px; height:6px;}
+.login_wrap .log_guide:hover .guide_box {display:block}
+.login_wrap .log_guide .pw_tt {color:#333; font-weight:600; letter-spacing:-1px; padding-bottom:4px}
+.login_wrap .log_guide .guide_box em {letter-spacing:0px; text-decoration:underline;}
+
+.login_wrap .form_box .btn_login {background:#cc3628; color:#fff; font-size:21px; letter-spacing:0px; font-weight:600; width:100%; height:65px; margin-top:15px;}
+.login_wrap .copyright {text-align:center; color:#999; margin-top:20px; font-size:11px;}
+

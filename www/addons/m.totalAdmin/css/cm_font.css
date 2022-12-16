@@ -1,0 +1,132 @@
+
+@charset 'utf-8';
+
+/* ftp용량 절감을 위해 웹폰트 관련 경로를 변경하였습니다. 소스를 넘길 때는 webfont 폴더를 꼭 복사하시고 경로 변경 하세요.*/
+/* IE 9 이하버전에서는 font-weight: 800(extrabold)이 반영되지 않음. */
+
+
+
+/* ●●●●●●●●●● 나눔바른고딕 */
+
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-style: normal;
+	font-weight: 300;
+	src: url("webfont/NanumBarunGothicWebUltraLight.eot");
+	src: url("webfont/NanumBarunGothicWebUltraLight.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/NanumBarunGothicWebUltraLight.woff") format("woff"), 
+	url("webfont/NanumBarunGothicWebUltraLight.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-style: normal;
+	font-weight: 400;
+	src: url("webfont/NanumBarunGothicWeb.eot");
+	src: url("webfont/NanumBarunGothicWeb.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/NanumBarunGothicWeb.woff") format("woff"), 
+	url("webfont/NanumBarunGothicWeb.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "NanumBarunGothic";
+	font-style: normal;
+	font-weight: 600;
+	src: url("webfont/NanumBarunGothicWebBold.eot");
+	src: url("webfont/NanumBarunGothicWebBold.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/NanumBarunGothicWebBold.woff") format("woff"), 
+	url("webfont/NanumBarunGothicWebBold.ttf") format("truetype");
+}
+
+
+
+/* ●●●●●●●●●● 영문roboto */
+@font-face {
+	font-family: "roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: url("webfont/roboto-regular.eot");
+	src: url("webfont/roboto-regular.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/roboto-regular.woff") format("woff"), 
+	url("webfont/roboto-regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "roboto";
+	font-style: normal;
+	font-weight: 300;
+	src: url("webfont/roboto-light.eot");
+	src: url("webfont/roboto-light.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/roboto-light.woff") format("woff"), 
+	url("webfont/roboto-light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "roboto";
+	font-style: normal;
+	font-weight: 600;
+	src: url("webfont/roboto-medium.eot");
+	src: url("webfont/roboto-medium.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/roboto-medium.woff") format("woff"), 
+	url("webfont/roboto-medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "roboto";
+	font-style: normal;
+	font-weight: 200;
+	src: url("webfont/roboto-thin.eot");
+	src: url("webfont/roboto-thin.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/roboto-thin.woff") format("woff"), 
+	url("webfont/roboto-thin.ttf") format("truetype");
+}
+
+
+
+
+/* ●●●●●●●●●● 영문lato 
+@font-face {
+	font-family: "lato";
+	font-style: normal;
+	font-weight: 300;
+	src: url("webfont/lato-light.eot");
+	src: url("webfont/lato-light.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/lato-light.woff") format("woff"), 
+	url("webfont/lato-light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "lato";
+	font-style: normal;
+	font-weight: 400;
+	src: url("webfont/lato-regular.eot");
+	src: url("webfont/lato-regular.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/lato-regular.woff") format("woff"), 
+	url("webfont/lato-regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "lato";
+	font-style: normal;
+	font-weight: 700;
+	src: url("webfont/lato-bold.eot");
+	src: url("webfont/lato-bold.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/lato-bold.woff") format("woff"), 
+	url("webfont/lato-bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "lato";
+	font-style: normal;
+	font-weight: 800;
+	src: url("webfont/lato-black.eot");
+	src: url("webfont/lato-black.eot?#iefix") format("embedded-opentype"), 
+	url("webfont/lato-black.woff") format("woff"), 
+	url("webfont/lato-black.ttf") format("truetype");
+}
+*/
+
+
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+	<title><![CDATA[갤러리형]]></title><!-- 게시판의 이름 -->
+	<type><![CDATA[gallery]]></type> <!-- 게시판의 유형 -->
+	<info><![CDATA[갤러리형 게시판 입니다.]]></info><!-- 게시판 설명 -->
+	<file><![CDATA[false]]></file><!-- 파일첨부기능 사용여부 -->
+	<images><![CDATA[true]]></images><!-- 이미지 첨부 사용여부 -->
+	<images_view><![CDATA[list]]></images_view><!-- 이미지 첨부 노출위치 -->
+	<images_width><![CDATA[FREE]]></images_width><!-- 이미지 사용시 세로 크기 -->
+	<images_height><![CDATA[FREE]]></images_height><!-- 이미지 사용시 가로 크기 -->
+	<date><![CDATA[false]]></date> <!-- 기간옵션 사용여부 -->
+</skin>

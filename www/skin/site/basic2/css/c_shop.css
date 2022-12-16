@@ -1,0 +1,525 @@
+@charset 'utf-8';
+
+/*
+ * Copyright    :    ONEDAYNET.CO.KR
+ * SOLUTION     :    HYSSENCE 3.0
+ * Directory    :    pages/css/
+ * File         :    c_shop.css
+ * SUMMARY      :    장바구니/주문
+*/
+
+
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 장바구니
+ * ********************************************** */
+
+.c_shop .c_group_tit {margin-top:30px; padding-bottom:5px; border-bottom:1px solid #000;}
+.c_shop .c_group_tit.order {margin-top:0; }
+.c_shop .c_btnbox {padding-bottom:50px; margin-top:30px}
+.c_shop .c_btnbox ul{
+  float:right;
+}
+.c_page_tit .title{
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 28px;
+  color: #222222;
+  font-weight: bold;
+}
+.c_shop .c_btnbox.none_float ul{
+  float: initial;
+}
+
+
+/* 장바구니에 담긴 상품이 없을때 */
+.c_shop .none {
+  text-align:center; 
+  overflow:hidden; 
+  padding-bottom:60px; 
+}
+.c_shop .none .gtxt {
+  padding: 60px 0;
+  margin: 0 0 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 12px;
+  color: #444;
+}
+
+/* 주문결제 : 비회원 주문 개인정보 수집동의 */
+.c_shop .c_agree {margin-top:-15px}
+.c_shop .c_agree .form {margin-top:0}
+.c_shop .c_agree .form .text_box {border-top:0;}
+.c_shop .c_agree .agree_check {text-align:center;}
+
+/* 주문결제 : 주문자, 배송자 정보폼 */
+.c_shop .c_form {border-top:0; margin-top:0}
+.c_shop .c_form .order_select {float:none; min-width:335px}
+
+/* 완료페이지 (주문결제완료) */
+.c_shop .c_complete .complete_box .tit {margin-top:0}
+.c_shop .c_complete .complete_box .sub_txt {margin-top:15px}
+.c_shop .c_complete .c_btnbox {padding-bottom:0}
+.c_shop .c_complete .order_number {  font-size:17px; font-weight:600; margin-bottom:15px; color:#333; display:block; text-align:center; border:1px solid #666; padding:15px 30px; background:#fff;}
+.c_shop .c_complete .order_number strong {letter-spacing:0px;}
+.c_shop .complete_total {margin-top:30px}
+.c_shop .complete_list .cart_table {border-top:0;}
+
+.c_shop .c_item_list .item_quick {display:none;}
+
+
+
+/* 일반상품 수기주문 버튼리스트*/
+.cart_btn-div{
+  margin-top: -25px;
+}
+.cart_btn-ul{
+  display: flex;
+  margin-bottom: 40px;
+}
+.cart_btn-ul li{
+  display: inline-block;
+  width: 100px;
+  line-height: 40px;
+  border: 1px solid #dbdbdb;
+  font-size: 13px;
+  text-align: center;
+}
+.btn-bg-blue{
+  background: #029bb9;
+  border: 1px solid #029bb9;
+  color: #fff;
+}
+.cart_btn-ul li:last-child{
+  border-left: none;
+}
+
+/* ********************************************** *
+ * 장바구니 : 상품 리스트
+ * ********************************************** */
+.c_cart_list {margin-bottom:10px}
+.c_cart_list .table_top {overflow:hidden; margin:10px 0;}
+.c_cart_list .tit_box {float:left; margin-left:-15px}
+.c_cart_list .tit_box .txt {position:relative; float:left; color:#888; letter-spacing:-0.5px; font-size:13px; line-height:18px; padding:0 14px; margin-left:1px}
+.c_cart_list .tit_box .shop_tit {color:#333; font-weight:600;}
+.c_cart_list .tit_box .shop_tit:before {content:""; position:absolute; left:-1px; top:50%; width:1px; height:13px; background:#ddd; margin-top:-5px}
+.c_cart_list .guide_txt {float:right; color:#888; letter-spacing:-0.5px; margin-top:3px}
+.c_cart_list .guide_txt strong {text-decoration:underline; color:#000; letter-spacing:0px;}
+
+/* 장바구니 상품리스트 */
+.c_cart_list .cart_table {
+  border-bottom:1px solid #ddd; 
+  border-top:1px solid #333; }
+.c_cart_list .cart_table table {
+  width:100%; 
+}
+.c_cart_list .cart_table th {
+  background:#fafafa; 
+  height:40px; 
+  font-weight:bold; 
+  letter-spacing:-0.5px; 
+  box-sizing:border-box;
+  color:#333;
+}
+.c_cart_list .cart_table td {text-align:center; border-top:1px solid #eee;}
+.c_cart_list .cart_table td:first-child {border-left:0;}
+.c_cart_list .cart_table tr:first-child td {border-top:1px solid #ddd;}
+.c_cart_list .cart_table th .design {padding:8px 10px 6px}
+.c_cart_list .cart_table .design {padding:15px 10px; display:block}
+.c_cart_list .cart_table .design input[type=checkbox] {margin-right:0; float:none}
+.c_cart_list .cart_table .thumb_box {
+  width:52px; 
+  height:52px; 
+  min-height:52px; 
+  overflow:hidden;  
+  box-sizing:border-box; 
+  background:#fafafa url('../images/c_img/none_photo.png') center center no-repeat;
+  margin-right: 10px;
+}
+.c_cart_list .cart_table .thumb_box img {width:100%; height:100%;}
+.c_cart_list .order_item {
+  text-align:left; 
+  font-size: 12px;
+}
+
+.c_cart_list .cart_table .t_price {font-weight:600; font-size:13px; font-weight:600; color:#333;}
+.c_cart_list .order_item .item_name {overflow:hidden;  padding-bottom:15px}
+.cart_td_flex{
+  display:flex;
+  padding: 10px;
+}
+.c_cart_list .order_item .title {
+  font-size:13px; 
+  color:#333; 
+  font-weight:600; 
+  letter-spacing:-1px; 
+  padding:2px 0 5px; 
+  word-wrap:break-word; 
+  word-break:keep-all;
+  transform: translateY(50%);
+}
+.c_cart_list .option {}
+.c_cart_list .option ul {display:table; width:100%; table-layout:fixed; }
+.c_cart_list .option li {list-style:none; display:table-cell; vertical-align:middle; padding:10px 0}
+.c_cart_list .option .opt_tit {padding-left:41px; position:relative; line-height:17px; letter-spacing:-0.5px; word-wrap:break-word; word-break:keep-all;}
+.c_cart_list .option .opt_tit.opt_none {
+  padding-left:0;
+  width:76px;
+  font-size:10px;
+  color: #777;
+}
+.c_cart_list .option .opt_tit .icon {position:absolute; left:0; top:0; font-size:11px; color:#666; height:19px; box-sizing:border-box; border:1px solid #666; padding:0 4px; line-height:15px; cursor:default}
+.c_cart_list .option .opt_tit .icon.add {border-color:#ccc; color:#999;}
+.c_cart_list .option .price {display:none; width:70px; text-align:right; padding:0 10px; letter-spacing:-0.5px;}
+.c_cart_list .option .price strong {color:#333; font-weight:600; letter-spacing:0px;}
+.c_cart_list .option .num {width:45px; text-align:right; letter-spacing:-0.5px; padding-right:10px}
+.c_cart_list .option .num strong {color:#333; font-weight:600; letter-spacing:0px;}
+.c_cart_list .option .counter {
+  display:flex;
+  flex-direction:column;
+  width:76px; 
+  padding-left:10px;
+}
+.c_cart_list .delete {width:23px;}
+.c_cart_list .delete .btn_delete {display:none; width:23px; height:23px; border:1px solid #ccc; background:transparent url('../images/c_img/shop_opt_del.gif') center center no-repeat; box-sizing:border-box;}
+
+/* 장바구니 리스트 하단 총 갯수, 총금액 */
+.c_cart_list tfoot td {padding:10px}
+.c_cart_list tfoot .total_tit {font-size:13px; letter-spacing:-1px; text-align:center;}
+.c_cart_list tfoot .tit {font-size:13px; letter-spacing:-1px; margin-right:5px; float:left;}
+.c_cart_list tfoot .total {font-size:13px; letter-spacing:-1px; float:left;}
+.c_cart_list tfoot .total strong {color:#000; font-weight:600; font-size:15px; float:left; line-height:18px; letter-spacing:0px;}
+
+/* 쿠폰다운로드 추가 */
+.c_cart_list .if_coupon .t_name {color:#666;}
+.c_cart_list .if_coupon .t_benefit {color:#000; font-weight:600;}
+.c_cart_list .if_coupon .t_benefit strong {color:#ff6600;}
+.c_cart_list .if_coupon .c_btn {float:none !important; margin:0px !important;}
+
+.c_cart_list .member_benefit {overflow:hidden;}
+.c_cart_list .member_benefit span {display:inline-block; font-size:12px !important; font-weight:400 !important; margin-top:5px; color:#999; letter-spacing:-1px; background:#fff; padding:6px 10px; border:1px solid #ddd;}
+.c_cart_list .member_benefit strong {color:#cd3726; font-weight:600 !important; letter-spacing:0px; display:block;}
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 장바구니 선택상품삭제, 비우기 버튼
+ * ********************************************** */
+.c_cart_ctrl {margin-top:10px; overflow:hidden;}
+.c_cart_ctrl .left_box {float:left; margin-left:-10px}
+.c_cart_ctrl .select_num {float:right; line-height:28px; letter-spacing:-1px; font-size:13px; padding-right:3px}
+.c_cart_ctrl .select_num .num {color:#999; }
+.c_cart_ctrl .select_num strong { color:#000;}
+
+
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 수량선택박스
+ * ********************************************** */
+.c_counter_design {
+  overflow:hidden; 
+  background:#fff; 
+  border:1px solid #ccc; 
+  position:relative; 
+  display:block; 
+  width: 30px;
+  padding:0 22px;
+}
+.c_counter_design .btn {
+  position:absolute; 
+  right:0; 
+  text-align:center; 
+  width:23px; 
+  height:16px;
+}
+.c_counter_design .counter_input {
+  font-size:12px; 
+  float:none; 
+  width:100%; 
+  text-align:center; 
+  height:33px;  
+  line-height:20px; 
+  padding-bottom:1px; 
+  box-sizing:border-box;
+  transform: translateX(-50%);
+}
+.c_counter_design .btn_minus {
+  bottom:0;
+  border-top: 1px solid #ccc;
+  border-right: none;
+  background:transparent url('../images/skin/btn_count_down.png') center center no-repeat;
+}
+.c_counter_design .btn_plus {
+  top:0; 
+  border-top: none;
+  border-right: none;
+  background:transparent url('../images/skin/btn_count_up.png') center center no-repeat;
+}
+.c_counter_design .btn_minus .shape:after {display:none;}
+
+
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 상품쿠폰
+ * ********************************************** */
+.c_coupon {overflow:hidden; margin-top:5px; padding-bottom:3px; overflow:hidden; width:450px;}
+.c_coupon .coupon_box {border:1px solid #cd3726; display:inline-block; position:relative; padding-left:92px; overflow:visible; max-width:325px}
+.c_coupon .coupon_box input[type=checkbox] {margin:3px 0 0 8px;}
+.c_coupon .coupon_tit {position:absolute; left:0; top:50%; letter-spacing:-1px; padding:0 5px; width:90px; box-sizing:border-box; text-align:center; margin-top:-9px; cursor:default; color:#666;}
+.c_coupon .one_coupon {float:left; padding:8px 10px 9px;  position:relative; overflow:visible; border-left:1px dashed #ccc; min-height:17px; }
+.c_coupon .one_coupon .shape {position:absolute; left:-6px; z-index:10; width:11px; height:6px;}
+.c_coupon .one_coupon .shape.ic_top {  top:-1px; background:transparent url('../images/c_img/coupon_ic1.png') left top no-repeat;}
+.c_coupon .one_coupon .shape.ic_bottom {  bottom:-1px; background:transparent url('../images/c_img/coupon_ic2.png') left top no-repeat;}
+.c_coupon .one_coupon .txt {letter-spacing:-1px; position:relative; padding:0 10px; font-size:12px; line-height:16px; word-wrap:break-word; word-break:keep-all; color:#666; float:left; cursor:default}
+.c_coupon .one_coupon .txt.tt {max-width:155px; overflow:hidden; text-overflow:ellipsis; white-space: nowrap; word-wrap: normal !important; display:block;}
+.c_coupon .one_coupon .txt.tt:before {content:""; position:absolute; right:0; top:50%; width:1px; height:11px; background:#ccc; margin-top:-4px; }
+.c_coupon .one_coupon strong {color:#db0300; line-height:16px; letter-spacing:0px;}
+.c_coupon .one_coupon em {letter-spacing:0px;}
+.c_coupon label .coupon_tit {cursor:pointer}
+.c_coupon label .one_coupon .txt {cursor:pointer}
+
+
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 장바구니 : 내가 찜한상품 더보기 버튼
+ * ********************************************** */
+.c_item_list .c_other_item {position:relative;}
+.c_item_list .c_other_item .more {position:absolute; right:-10px; bottom:-2px; font-size:13px; color:#999; text-decoration:underline; padding:15px}
+.c_item_list .c_other_item .more:hover {color:#333;}
+
+
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 장바구니, 주문결제 총 결제 금액
+ * ********************************************** */
+.c_total_price {border:2px solid #ddd; text-align:center; padding:40px 25px; margin-top:10px; overflow:hidden;}
+.c_total_price .lineup {display:inline-block; float:right;}
+.c_total_price .price {float:left; line-height:18px; font-size:15px; letter-spacing:-1px;}
+.c_total_price .price_num {margin-left:10px;color: #029bb9;}
+.c_total_price .price_num strong {letter-spacing:0px; font-weight:600; font-size:21px; float:left; line-height:17px;}
+.c_total_price .total_num .price_num strong {color: #029bb9;}
+.c_total_price .ic_price {
+  float:left; 
+  width:20px; 
+  height:20px; 
+  border-radius: 50%; 
+  margin:0 20px;
+}
+.c_total_price .ic_plus {
+  background:transparent url('../images/skin/order_price_plus.png') center center no-repeat;
+  transform: translate(20%,60%);
+}
+.c_total_price .ic_minus {background:transparent url('../images/c_img/ic_total_minus.gif') center center no-repeat;}
+.c_total_price .ic_equal {
+  background:transparent url('../images/skin/order_price_total.png') center center no-repeat;
+  transform: translate(30%,60%);
+}
+
+.c_total_price .for_css.ic_plus,
+.c_total_price .for_css.ic_equal{
+  transform: translate(20%,0%);
+}
+.c_total_price .for_css1.ic_equal{
+  transform: translate(-32%, 0%);
+}
+.for_css.total_num{transform: inherit;}
+.price_label{
+  text-align:right;
+  font-size:16px;
+  color:#333;
+  margin-bottom:10px;
+}
+
+
+
+
+
+
+/* ********************************************** *
+ * 주문결제 : 할인 및 추가 혜택 적용
+ * ********************************************** */
+.c_add_sale {overflow:hidden;}
+.c_add_sale table {width:100%; border-collapse:separate; border-spacing:0 10px; margin-top:-11px}
+.c_add_sale th {border-top:1px solid #ddd; border-bottom:1px solid #ddd; font-size:13px; font-weight:600; color:#333; background:#f5f5f5;}
+.c_add_sale td {border:1px solid #ddd; border-right:0; vertical-align:middle;}
+.c_add_sale ul {padding:7px 20px}
+.c_add_sale li {list-style:none; overflow:hidden; position:relative; padding:8px 0; border-top:1px solid #eee;}
+.c_add_sale li:first-child {border-top:0;}
+.c_add_sale .txt {float:left; font-size:13px; letter-spacing:-1px; padding:0 19px; margin-left:1px; position:relative; line-height:30px;}
+.c_add_sale .txt:before {content:""; position:absolute; left:-1px; top:50%; width:1px; height:12px; background:#ccc; margin-top:-5px}
+.c_add_sale .txt:first-child {padding-left:0; margin-left:0}
+.c_add_sale .txt:first-child:before {display:none}
+.c_add_sale .txt em {color:#999; letter-spacing:0px;}
+.c_add_sale .txt .num {color:#000; letter-spacing:0px;}
+.c_add_sale .txt strong {font-weight:600;}
+
+/* 쿠폰선택 셀렉트박스 */
+.c_add_sale select {border:1px solid #ddd; padding:1px 22px 4px 8px; padding:1px 22px 3px 6px\0; font-size:12px !important; height:30px; float:right; min-width:250px;  max-width:380px}
+.c_add_sale select {-webkit-appearance: none; appearance: none;  -moz-appearance: none; -webkit-user-select: none; background:#fff url('../images/c_img/select.gif') right center no-repeat;}
+.c_add_sale select:focus {border-color:#aaa;}
+.c_add_sale select::-ms-expand {display:none;}
+
+/* 쿠폰명, 할인가격 */
+.c_add_sale .icon {height:23px; padding:0 8px; background:#ccc; color:#666; font-size:11px; letter-spacing:-1px; line-height:21px; font-weight:600; float:left; margin-right:10px; position:absolute; left:0; top:50%; margin-top:-12px}
+.c_add_sale .coupon_name {letter-spacing:-1px; float:left; line-height:16px; padding:0 80px 3px 80px; word-wrap:break-word; word-break:keep-all;}
+.c_add_sale .coupon_name.no_coupon {padding-left:0}
+.c_add_sale .coupon_price {font-size:13px; line-height:20px; margin-left:3px; }
+.c_add_sale .coupon_price strong {letter-spacing:0px; color:#000; font-weight:600;}
+
+/* 할인, 추가혜택 공통 버튼 */
+.c_add_sale .c_btnbox {margin-top:0; padding-bottom:0}
+.c_add_sale .c_btnbox li {border:0;}
+.c_add_sale .c_btnbox .c_btn {width:83px; line-height:25px\0;}
+.c_add_sale .delete {position:absolute; right:0; top:50%; margin-top:-12px}
+
+/* 프로모션 코드할인 */
+.c_add_sale .promo_sale {float:left; line-height:30px; letter-spacing:-1px; font-size:13px; margin-left:10px}
+.c_add_sale .promo_sale strong {font-weight:600; color:#000; letter-spacing:0px;}
+
+/* 적립금, 프로모션 코드 인풋 */
+.c_add_sale .input_box { margin-left:-5px}
+.c_add_sale .input_box .input_design { float:left; margin-left:5px; }
+.c_add_sale .input_design {width:100%; border:1px solid #666; background:#fff; height:30px; box-sizing:border-box; padding:4px 10px 6px; color:#666;}
+.c_add_sale .input_design.if_date{background:transparent url('../images/icon_date.gif') 5px center no-repeat; padding:5px 10px 6px 30px}
+.c_add_sale .input_design:focus {border-color:#999;}
+.c_add_sale .input_design.number_style {text-align:right;}
+.c_add_sale .if_no_sale .input_design {border-color:#d1d1d1}
+.c_add_sale .input_box .label_design {margin-left:10px; margin-top:4px}
+.c_add_sale .input_box .if_beside {float:left; clear:none !important; margin-left:15px !important}
+.c_add_sale .input_box label.if_beside {line-height:28px;}
+.c_add_sale .input_box label.if_beside input[type=checkbox] {margin-top:9px}
+
+/* 적립금 가이드 */
+.c_add_sale .tip_txt {padding-left:16px; color:#999; letter-spacing:-1px; position:relative; padding-top:6px; clear:both}
+.c_add_sale .tip_txt:before {content:""; position:absolute; left:0; top:9px; width:13px; height:13px; background:transparent url('../images/c_img/join_tip.gif') left top no-repeat;}
+.c_add_sale .tip_txt.black {color:#333;}
+.c_add_sale .tip_txt.black:before {background-position:left bottom;}
+.c_add_sale .input_box .tip_txt {margin-left:5px}
+.c_add_sale .input_box .tip_txt .num {letter-spacing:0px; color:#000; text-decoration:underline;}
+
+
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 배송지정보 : 이전주소 선택
+ * ********************************************** */
+.c_form .address_box {overflow:hidden;}
+.c_form .address {overflow:hidden; padding:3px 80px 5px 0; position:relative; border-top:1px solid #e5e5e5; margin-top:-1px}
+.c_form .address .txt_box {float:left; line-height:22px; margin-left:-9px; position:relative;}
+.c_form .address .c_btn {position:absolute; right:0; top:50%; margin-top:-11px; z-index:10}
+.c_form .address .txt {padding:0 8px; position:relative; float:left; margin-left:1px}
+.c_form .address .txt:before {content:""; position:absolute; left:-1px; top:50%; width:1px; height:11px; background:#ddd; margin-top:-4px}
+.c_form .address .txt.name {color:#000; font-weight:600;}
+.c_form .address .txt_box:hover .txt {color:#000;}
+
+
+
+
+
+
+
+
+
+/* ********************************************** *
+ * 주문결제 : 결제정보폼
+ * ********************************************** */
+.c_form.if_last_order {display:table; width:100%; table-layout:fixed; }
+.c_form.if_last_order dt { display:table-cell; vertical-align:top; overflow:hidden; border-bottom:1px solid #ddd; box-sizing:border-box; }
+.c_form.if_last_order table {margin-top:-1px}
+.c_form.if_last_order table tr {border-bottom:0; border-top:1px solid #ddd;}
+.c_form.if_last_order table tr:first-child {border-top:0;}
+.c_form.if_last_order .bank {min-width:300px}
+
+/* 구매확인 라벨 */
+.c_form.if_last_order .label_design {padding-left:18px; position:relative;}
+.c_form.if_last_order .label_design input {position:absolute; left:0; top:6px;}
+
+/* 주문결제 : 결제수단 선택 아이콘 */
+.c_form .pay_select {display:table; width:100%; table-layout:fixed;}
+.c_form .pay_select li {list-style:none; display:table-cell; text-align:center;}
+.c_form .pay_select label {letter-spacing:-1px; position:relative; color:#666; display:block; margin-left:-1px}
+.c_form .pay_select label:first-child {}
+.c_form .pay_select label input[type=radio] {-webkit-appearance: none;appearance: none;-moz-appearance: none;-webkit-user-select: none; }
+.c_form .pay_input {position:absolute; left:5px; top:5px; opacity:0}
+.c_form .pay_select .lineup { padding:45px 10px 15px; display:block;  border:1px solid #ccc; position:relative;}
+.c_form .use_card .lineup {background:transparent url('../images/c_img/ic_pay_card.gif') center 20px no-repeat;}
+.c_form .use_real .lineup {background:transparent url('../images/c_img/ic_pay_real.gif') center 20px no-repeat;}
+.c_form .use_bank .lineup {background:transparent url('../images/c_img/ic_pay_bank.gif') center 20px no-repeat;}
+.c_form .use_point .lineup {background:transparent url('../images/c_img/ic_pay_point.gif') center 20px no-repeat;}
+.c_form .use_phone .lineup {background:transparent url('../images/c_img/ic_pay_phone.gif') center 20px no-repeat;}
+.c_form .use_vert .lineup {background:transparent url('../images/c_img/ic_pay_vert.gif') center 20px no-repeat;}
+.c_form .use_payco .lineup {background:transparent url('../images/c_img/ic_pay_payco.gif') center 20px no-repeat;}
+
+.c_form .pay_input:checked+ .lineup {border:1px solid #cd3726; position:relative; background-color:#fff;}
+.c_form .pay_input:checked+ .lineup:before {content:""; position:absolute; right:-1px; top:-1px; width:1px; height:110%; background:#cd3726; z-index:1}
+.c_form .pay_select li:hover .lineup {background-color:#f5f5f5;}
+
+/* 결제정보 : 총 결제금액 박스 */
+.c_form .total_order {background:#f5f5f5; display:table-cell; vertical-align:top; width:260px; padding:20px; border-bottom:1px solid #ddd;}
+.c_form .total_order ul {}
+.c_form .total_order li {list-style:none; overflow:hidden; border-bottom:1px dashed #ccc; padding:5px 0 2px}
+.c_form .total_order .price_tt {float:left; font-size:13px; letter-spacing:-1px; line-height:25px;}
+.c_form .total_order .price {float:right; color:#666; font-size:13px; line-height:25px;}
+.c_form .total_order .price strong {font-size:15px; font-weight:600; color:#000; margin-right:2px}
+.c_form .total_order .icon {width:10px; height:10px; margin-right:15px}
+.c_form .total_order .icon.plus {background:transparent url('../images/c_img/ic_total_plus.gif') left center no-repeat;}
+.c_form .total_order .icon.minus {background:transparent url('../images/c_img/ic_total_minus.gif') left center no-repeat;}
+.c_form .order_price {margin-top:20px; overflow:hidden;}
+.c_form .order_price .price_tt {font-size:15px;}
+.c_form .order_price .price {font-size:15px;}
+.c_form .order_price .price strong {font-size:25px; color:#cd3726; margin-right:0}
+
+
+/*비고 수량변경 버튼*/
+.pointbg_btn{
+  background-color:#fff;
+  border:1px solid #ccc;
+  padding:3px 8px;
+}
+
+
+
+.c_section .layout_fix.order_wrap{
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}

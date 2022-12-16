@@ -1,0 +1,17 @@
+/**/
+.evo-colorind,
+.evo-colorind-ie,
+.evo-colorind-ff {
+	border: 1px solid #d9dee3;
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.evo-color {
+	width: auto;
+	max-width: 94px;
+}
+
+
+/* JJC : color picker : css 조정 : 2018-03-18 */
+.evo-palette td:first-child {padding:7px !important;}

@@ -1,0 +1,74 @@
+2017-07-18 13:49:06 [INFO ] [] XPayClient initialize [/home/onedaynet/solution/hy30/public_html/pg/pc/lgpay/lgdacom] [test]
+2017-07-18 13:49:06 [DEBUG] [] Config [server_id] = [01]
+2017-07-18 13:49:06 [DEBUG] [] Config [timeout] = [60]
+2017-07-18 13:49:06 [DEBUG] [] Config [log_level] = [4]
+2017-07-18 13:49:06 [DEBUG] [] Config [verify_cert] = [1]
+2017-07-18 13:49:06 [DEBUG] [] Config [verify_host] = [1]
+2017-07-18 13:49:06 [DEBUG] [] Config [report_error] = [1]
+2017-07-18 13:49:06 [DEBUG] [] Config [output_UTF8] = [1]
+2017-07-18 13:49:06 [DEBUG] [] Config [auto_rollback] = [1]
+2017-07-18 13:49:06 [DEBUG] [] Config [log_dir] = [/home/onedaynet/solution/hy30/public_html/pg/pc/lgpay/lgdacom/log]
+2017-07-18 13:49:06 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2017-07-18 13:49:06 [DEBUG] [] Config [lgdacomxpay] = [96960ef1ebfc597c8a3e2bfe330b7fb5]
+2017-07-18 13:49:06 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2017-07-18 13:49:06 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2017-07-18 13:49:06 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2017-07-18 13:49:06 [FATAL] [] Key for MID [tINIpayTest] does not exist in mall.conf
+2017-07-18 13:49:06 [DEBUG] [] Post [LGD_TXNAME] = [Cancel]
+2017-07-18 13:49:06 [DEBUG] [] Post [LGD_TID] = [tssnu2014032819342779801]
+2017-07-18 13:49:06 [DEBUG] [] Post [LGD_ACCOUNTNUM] = [X7989011178603]
+2017-07-18 13:49:06 [DEBUG] [] Post [LGD_ACCOUNTOWNER] = [무통장테스트]
+2017-07-18 13:49:06 [DEBUG] [] Post [LGD_FINANCECODE] = [004]
+2017-07-18 13:49:06 [DEBUG] [] post_string = LGD_TXNAME=Cancel&LGD_TID=tssnu2014032819342779801&LGD_ACCOUNTNUM=X7989011178603&LGD_ACCOUNTOWNER=%EB%AC%B4%ED%86%B5%EC%9E%A5%ED%85%8C%EC%8A%A4%ED%8A%B8&LGD_FINANCECODE=004
+2017-07-18 13:49:07 [DEBUG] [] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"XC01","LGD_RESPMSG":"LGD_MID 필드가 누락되었습니다. Init_TX(LGD_MID)를 해주시기 바랍니다. 또는 mall.conf 에 상점키가 셋팅되어 있지 않습니다.","LGD_RESPONSE":[{"LGD_RESPCODE":"XC01","LGD_RESPMSG":"LGD_MID 필드가 누락되었습니다. Init_TX(LGD_MID)를 해주시기 바랍니다. 또는 mall.conf 에 상점키가 셋팅되어 있지 않습니다."}]}
+]
+2017-07-18 13:49:07 [INFO ] [] Response Code=[XC01], Msg=[LGD_MID �ʵ尡 �����Ǿ����ϴ�. Init_TX(LGD_MID)�� ���ֽñ� �ٶ��ϴ�. �Ǵ� mall.conf �� ����Ű�� ���õǾ� ���� �ʽ��ϴ�.], Count=1
+2017-07-18 13:49:07 [DEBUG] [] Response (LGD_RESPCODE, 0) = XC01
+2017-07-18 13:49:07 [DEBUG] [] Response (LGD_RESPMSG, 0) = LGD_MID 필드가 누락되었습니다. Init_TX(LGD_MID)를 해주시기 바랍니다. 또는 mall.conf 에 상점키가 셋팅되어 있지 않습니다.
+2017-07-18 13:52:03 [INFO ] [] XPayClient initialize [/home/onedaynet/solution/hy30/public_html/pg/pc/lgpay/lgdacom] [test]
+2017-07-18 13:52:03 [DEBUG] [] Config [server_id] = [01]
+2017-07-18 13:52:03 [DEBUG] [] Config [timeout] = [60]
+2017-07-18 13:52:03 [DEBUG] [] Config [log_level] = [4]
+2017-07-18 13:52:03 [DEBUG] [] Config [verify_cert] = [1]
+2017-07-18 13:52:03 [DEBUG] [] Config [verify_host] = [1]
+2017-07-18 13:52:03 [DEBUG] [] Config [report_error] = [1]
+2017-07-18 13:52:03 [DEBUG] [] Config [output_UTF8] = [1]
+2017-07-18 13:52:03 [DEBUG] [] Config [auto_rollback] = [1]
+2017-07-18 13:52:03 [DEBUG] [] Config [log_dir] = [/home/onedaynet/solution/hy30/public_html/pg/pc/lgpay/lgdacom/log]
+2017-07-18 13:52:03 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2017-07-18 13:52:03 [DEBUG] [] Config [lgdacomxpay] = [96960ef1ebfc597c8a3e2bfe330b7fb5]
+2017-07-18 13:52:03 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2017-07-18 13:52:03 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2017-07-18 13:52:03 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2017-07-18 13:52:03 [FATAL] [] Key for MID [tINIpayTest] does not exist in mall.conf
+2017-07-18 13:52:03 [DEBUG] [] Post [LGD_TXNAME] = [Cancel]
+2017-07-18 13:52:03 [DEBUG] [] Post [LGD_TID] = [tssnu2014032819342779801]
+2017-07-18 13:52:03 [DEBUG] [] Post [LGD_ACCOUNTNUM] = [X7989011178603]
+2017-07-18 13:52:03 [DEBUG] [] Post [LGD_ACCOUNTOWNER] = [무통장테스트]
+2017-07-18 13:52:03 [DEBUG] [] Post [LGD_FINANCECODE] = [004]
+2017-07-18 13:52:03 [DEBUG] [] post_string = LGD_TXNAME=Cancel&LGD_TID=tssnu2014032819342779801&LGD_ACCOUNTNUM=X7989011178603&LGD_ACCOUNTOWNER=%EB%AC%B4%ED%86%B5%EC%9E%A5%ED%85%8C%EC%8A%A4%ED%8A%B8&LGD_FINANCECODE=004
+2017-07-18 13:52:04 [DEBUG] [] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"XC01","LGD_RESPMSG":"LGD_MID 필드가 누락되었습니다. Init_TX(LGD_MID)를 해주시기 바랍니다. 또는 mall.conf 에 상점키가 셋팅되어 있지 않습니다.","LGD_RESPONSE":[{"LGD_RESPCODE":"XC01","LGD_RESPMSG":"LGD_MID 필드가 누락되었습니다. Init_TX(LGD_MID)를 해주시기 바랍니다. 또는 mall.conf 에 상점키가 셋팅되어 있지 않습니다."}]}
+]
+2017-07-18 13:52:04 [INFO ] [] Response Code=[XC01], Msg=[LGD_MID �ʵ尡 �����Ǿ����ϴ�. Init_TX(LGD_MID)�� ���ֽñ� �ٶ��ϴ�. �Ǵ� mall.conf �� ����Ű�� ���õǾ� ���� �ʽ��ϴ�.], Count=1
+2017-07-18 13:52:04 [DEBUG] [] Response (LGD_RESPCODE, 0) = XC01
+2017-07-18 13:52:04 [DEBUG] [] Response (LGD_RESPMSG, 0) = LGD_MID 필드가 누락되었습니다. Init_TX(LGD_MID)를 해주시기 바랍니다. 또는 mall.conf 에 상점키가 셋팅되어 있지 않습니다.

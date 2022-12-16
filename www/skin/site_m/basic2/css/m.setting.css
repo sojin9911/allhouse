@@ -1,0 +1,135 @@
+@charset 'utf-8';
+
+/*
+ * Copyright    :    ONEDAYNET.CO.KR
+ * SOLUTION     :    HYSSENCE 3.0
+ * Directory    :    m/css/
+ * File         :    setting.css
+ * SUMMARY      :    (스킨별) 기본값
+ */
+
+
+/* ********************************************** *
+ * GLOBAL
+ * ********************************************** */
+html {width:100%; height:100%; }
+body {margin:0; padding:0; background:#fff; }
+
+body,p,pre,form,span,div,table,td,ul,ol,li,dl,dt,dd,input,textarea,label,button {color:#666; font-family: 'Noto Sans KR', sans-serif; letter-spacing:0; font-size:12px; font-weight:400;}
+body,p,pre,form,span,div,table,td,ul,ol,li,dl,dt,dd,input,textarea,label,button {word-wrap:break-word; word-break:break-all; -webkit-text-size-adjust:none; text-decoration-skip-ink: none}
+b,strong {color:#666; word-wrap:break-word; word-break:break-all; font-size:inherit; font-family:inherit; font-weight:600}
+p,form,span,h1,h2,h3,h4,h5,h6 {margin:0; padding:0; font-weight:normal}
+div,table {margin:0; padding:0; border-spacing:0; border-collapse:collapse; border:0px none; -webkit-overflow-scrolling: touch;}
+table caption { width:0px; height:0px; font-size:0; visibility:hidden; }
+ul,ol,li,td,dl,dt,dd {margin:0; padding:0;}
+em,i {font-style:normal}
+a,span {display:inline-block;}
+div {-webkit-overflow-scrolling: touch;}
+img {border:0;}
+span,div,a,b,strong,label {color:inherit; font-size:inherit; font-weight:inherit; letter-spacing:inherit; line-height:inherit; font-size:inherit}
+table caption {width:0px; height:0px; font-size:0; visibility:hidden; }
+a:link, a:visited {color:inherit; text-decoration: none; cursor:pointer}
+a:hover, a:active {text-decoration: none;}
+
+strong{font-weight: bold;}
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+/* ********************************************** *
+ * FORM
+ * ********************************************** */
+/* lable */
+label {overflow:hidden; height:23px; line-height:24px; display:inline-block; box-sizing:border-box; color:#999;}
+input[type=checkbox],input[type=radio] {float:left; -webkit-appearance:none; -webkit-gradient:none; -webkit-border-radius:0; border:none; margin-right:5px; box-sizing:border-box;}
+
+/* input */
+input[type=checkbox] {width:20px; height:20px;  box-sizing:border-box; margin:0px; margin-right:5px; background: url(../images/skin/icon_chk.gif) no-repeat center;
+  background-size: 100%;}
+/* input[type=checkbox] {background:#fff url('../images/c_img/checkbox_radio.png') left top no-repeat; background-size:36px !important;}
+input[type=checkbox]:checked {background-position:right top; border-color:#cd3726; background-color:#cd3726;} */
+
+input[type=checkbox]:checked{
+  background: url(../images/skin/icon_chk_on.gif) no-repeat center;
+  background-size: 100%;
+}
+
+input[type=radio] {width:20px; height:20px; border-radius:100px; box-sizing:border-box; border:1px solid #ddd; margin:0px; margin-right:5px;}
+input[type=radio] {background:#fff url('../images/c_img/checkbox_radio.png') left bottom no-repeat; background-size:36px !important; }
+input[type=radio]:checked {background-position:right bottom; border-color:#029bb9; background-color:#029bb9;}
+
+/* input 기본 */
+input[type=text],input[type=password],input[type=number],input[type=email],input[type=tel],input[type=date],input[type=file],input[type=search], input[type=submit],input[type=url], input[type=button], button
+{-webkit-appearance:none; -webkit-gradient:none; -webkit-border-radius:0; border:none; background:none; box-sizing:border-box;}
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0;} /* 오른쪽에 나타나는 화살표 버튼없애기 */
+input[type=date]::-webkit-outer-spin-button, input[type=date]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0; border:0;} /* 오른쪽에 나타나는 화살표 버튼없애기 */
+input[type=text],input[type=password],input[type=search],input[type=email],input[type=number],input[type=tel]:focus {color:#333}
+input::-ms-clear {display: none;}
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {display:none;}
+textarea {border:none; background:none; line-height:18px; padding:5px; box-sizing:border-box; width:100%; -webkit-appearance:none; -webkit-border-radius:0; -webkit-overflow-scrolling: touch;}
+textarea:focus {color:#333}
+
+/* placholder는 일부 안드로이드에서 line-height값이 먹히지 않으므로 패딩값으로 함께 조절 */
+placeholder {color:#aaa !important}
+input::-webkit-input-placeholder {color:#aaa !important}
+input:-ms-input-placeholder {color:#aaa !important}
+input:-moz-placeholder {color:#aaa !important}
+textarea::-webkit-input-placeholder {color:#aaa !important}
+textarea:-ms-input-placeholder {color:#aaa !important}
+textarea:-moz-placeholder {color:#aaa !important}
+select::-ms-expand {display:none; }
+select {-webkit-appearance: none; appearance: none;  -moz-appearance: none; -webkit-user-select: none;}
+
+/* 크롬 자동완성 BG색 버림(아이디비번저장 시) */
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px #EBF1F5 inset;}
+input:-webkit-autofill:focus {-webkit-box-shadow: 0 0 0px 1000px #d8e0e6 inset;}
+
+/* 공통셀렉트 */
+.select {position:relative; overflow:hidden; background:#fff url('../images/c_img/select_icon2.png') right center no-repeat; background-size:auto 6px; height:35px; }
+.select select {padding:0 10px; font-size:12px; height:35px; line-height:35px; border-radius:0px; width:100%; color:#666; background:none; letter-spacing:-0.5px; padding-right:30px; }
+.select select {border:1px solid #ccc; box-sizing:border-box;}
+.select select:focus {border-color:#666;}
+.select:before {content:""; width:1px; height:33px; background:#eee; position:absolute; right:35px; top:1px;}
+
+/* 인풋포커스 라인삭제 : 웹접근성 작업 시 사용하면 안됨 */
+input,select,textarea {outline:none}
+
+
+
+/* ********************************************** *
+ * ESSENTIAL
+ * ********************************************** */
+.lineup {display:inline-block;}
+.wrap {width:100%; height:100%; position:relative; overflow-x:hidden;}
+.clear {clear:both}
+.upper_link {position:absolute; left:0; top:0; width:100%; height:100%; z-index:9}
+
+
+/* 공통페이지는 다음과 같은 경로안으로 들어갑니다. */
+.common_page {padding:10px; overflow:hidden; background:#eee; }
+.common_inner {background:#fff; padding:10; overflow:hidden; box-shadow:0 0 8px rgba(0,0,0,0.1);}
+.common_full {padding:0} /* 패딩값없이 */
+.common_full .cm_bottom_button {padding:0 15px !important;}
+
+.hide{
+  display: none !important;
+}
+.clearfix:before, .clearfix:after {
+  display: block;
+  content: '';
+  line-height: 0;
+}
+
+.clearfix:after {
+  clear:both;
+}
+
+.clearfix {
+*zoom: 1;
+}

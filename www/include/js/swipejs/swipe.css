@@ -1,0 +1,30 @@
+
+/* Swipe 2 required styles */
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > figure {
+  float:left;
+  width:100%;
+  position: relative;
+}
+/* END required styles */
+
+#slider{margin-top:0}
+#slider figure{display:block; border:0;margin:0;padding:0}
+#slider figure div.wrap{width:100%; display:block; position:relative}/*height:642px;*/
+
+#slider figure div.image{display:block;height:inherit}
+#slider figure img{ width:100%}
+
+#position_nav {position:relative; margin:-33px auto 0;}/*올리지 않을 경우 : margin:7px auto 0;, 올릴 경우 : margin:-25px auto 0;*/
+#position_nav #position{text-align:center;list-style:none;margin:0;padding:0; }
+#position_nav #position li{ display:inline-block; margin-left:2px; width:10px; height:10px;}
+#position_nav #position li.on{ background-position:-80px 0;}
+#position_nav #position li.off{ background-position:-70px 0;}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+	<title><![CDATA[1:1문의형]]></title><!-- 게시판의 이름 -->
+	<type><![CDATA[qna]]></type> <!-- 게시판의 유형 -->
+	<info><![CDATA[1:1문의형 스킨 입니다.<br/>기본적으로 답글이 본문에 노출되는 형태의 게시판입니다.]]></info><!-- 게시판 설명 -->
+	<file><![CDATA[true]]></file><!-- 파일첨부기능 사용여부 -->
+</skin>

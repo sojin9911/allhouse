@@ -1,0 +1,123 @@
+2018-04-14 17:26:46 [INFO ] [] XPayClient initialize [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom] []
+2018-04-14 17:26:46 [DEBUG] [] Config [server_id] = [01]
+2018-04-14 17:26:46 [DEBUG] [] Config [timeout] = [60]
+2018-04-14 17:26:46 [DEBUG] [] Config [log_level] = [4]
+2018-04-14 17:26:46 [DEBUG] [] Config [verify_cert] = [1]
+2018-04-14 17:26:46 [DEBUG] [] Config [verify_host] = [1]
+2018-04-14 17:26:46 [DEBUG] [] Config [report_error] = [1]
+2018-04-14 17:26:46 [DEBUG] [] Config [output_UTF8] = [1]
+2018-04-14 17:26:46 [DEBUG] [] Config [auto_rollback] = [1]
+2018-04-14 17:26:46 [DEBUG] [] Config [log_dir] = [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom/log]
+2018-04-14 17:26:46 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:26:46 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:26:46 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2018-04-14 17:26:46 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2018-04-14 17:26:46 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2018-04-14 17:27:31 [INFO ] [] XPayClient initialize [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom] []
+2018-04-14 17:27:31 [DEBUG] [] Config [server_id] = [01]
+2018-04-14 17:27:31 [DEBUG] [] Config [timeout] = [60]
+2018-04-14 17:27:31 [DEBUG] [] Config [log_level] = [4]
+2018-04-14 17:27:31 [DEBUG] [] Config [verify_cert] = [1]
+2018-04-14 17:27:31 [DEBUG] [] Config [verify_host] = [1]
+2018-04-14 17:27:31 [DEBUG] [] Config [report_error] = [1]
+2018-04-14 17:27:31 [DEBUG] [] Config [output_UTF8] = [1]
+2018-04-14 17:27:31 [DEBUG] [] Config [auto_rollback] = [1]
+2018-04-14 17:27:31 [DEBUG] [] Config [log_dir] = [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom/log]
+2018-04-14 17:27:31 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:27:31 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:27:31 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2018-04-14 17:27:31 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2018-04-14 17:27:31 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2018-04-14 17:27:51 [INFO ] [] XPayClient initialize [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom] []
+2018-04-14 17:27:51 [DEBUG] [] Config [server_id] = [01]
+2018-04-14 17:27:51 [DEBUG] [] Config [timeout] = [60]
+2018-04-14 17:27:51 [DEBUG] [] Config [log_level] = [4]
+2018-04-14 17:27:51 [DEBUG] [] Config [verify_cert] = [1]
+2018-04-14 17:27:51 [DEBUG] [] Config [verify_host] = [1]
+2018-04-14 17:27:51 [DEBUG] [] Config [report_error] = [1]
+2018-04-14 17:27:51 [DEBUG] [] Config [output_UTF8] = [1]
+2018-04-14 17:27:51 [DEBUG] [] Config [auto_rollback] = [1]
+2018-04-14 17:27:51 [DEBUG] [] Config [log_dir] = [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom/log]
+2018-04-14 17:27:51 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:27:51 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:27:51 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2018-04-14 17:27:51 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2018-04-14 17:27:51 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2018-04-14 17:30:43 [INFO ] [] XPayClient initialize [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom] [test]
+2018-04-14 17:30:43 [DEBUG] [] Config [server_id] = [01]
+2018-04-14 17:30:43 [DEBUG] [] Config [timeout] = [60]
+2018-04-14 17:30:43 [DEBUG] [] Config [log_level] = [4]
+2018-04-14 17:30:43 [DEBUG] [] Config [verify_cert] = [1]
+2018-04-14 17:30:43 [DEBUG] [] Config [verify_host] = [1]
+2018-04-14 17:30:43 [DEBUG] [] Config [report_error] = [1]
+2018-04-14 17:30:43 [DEBUG] [] Config [output_UTF8] = [1]
+2018-04-14 17:30:43 [DEBUG] [] Config [auto_rollback] = [1]
+2018-04-14 17:30:43 [DEBUG] [] Config [log_dir] = [/home/onedaynet/solution/hy30/public_html/pg/m/lgpay/lgdacom/log]
+2018-04-14 17:30:43 [DEBUG] [] Config [tlgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:30:43 [DEBUG] [] Config [lgdacomxpay] = [95160cce09854ef44d2edb2bfb05f9f3]
+2018-04-14 17:30:43 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2018-04-14 17:30:43 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2018-04-14 17:30:43 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2018-04-14 17:30:43 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Post [LGD_TXID] = [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83]
+2018-04-14 17:30:43 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Post [LGD_AUTHCODE] = [3f2322b33fcad77c1f0d5f13ed902e125cee530e]
+2018-04-14 17:30:43 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Post [LGD_MID] = [tlgdacomxpay]
+2018-04-14 17:30:43 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Post [LGD_TXNAME] = [PaymentByKey]
+2018-04-14 17:30:43 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Post [LGD_PAYKEY] = [20180414173043E46A34F56387730F0A90772CB9B59E7249B7FF0E]
+2018-04-14 17:30:43 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] post_string = LGD_TXID=tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83&LGD_AUTHCODE=3f2322b33fcad77c1f0d5f13ed902e125cee530e&LGD_MID=tlgdacomxpay&LGD_TXNAME=PaymentByKey&LGD_PAYKEY=20180414173043E46A34F56387730F0A90772CB9B59E7249B7FF0E
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"0000","LGD_RESPMSG":"결제성공","LGD_RESPONSE":[{"LGD_BUYERPHONE":"","LGD_PAYDATE":"20180414173044","LGD_DISCOUNTUSEYN":"0","LGD_BUYEREMAIL":"wyoule@naver.com","LGD_RECEIVER":"","LGD_DELIVERYINFO":"","LGD_PAYTYPE":"SC0010","LGD_RECEIVERPHONE":"","LGD_EXCHANGERATE":"1.0","LGD_IFOS":"3A6C0S","LGD_AFFILIATECODE":"009191","LGD_RESPMSG":"결제성공","LGD_2TR_FLAG":"Y","LGD_CARDNUM":"49062512****7890","LGD_FINANCEAUTHNUM":"00000000","LGD_CARDNOINTEREST_YN":"0","LGD_ESCROWYN":"N","LGD_TRANSAMOUNT":"2690","LGD_FINANCECODE":"31100","LGD_DISCOUNTUSEAMOUNT":"0","LGD_CARDGUBUN1":"0","LGD_CARDGUBUN2":"0","LGD_HASHDATA":"636baad4e26cd1cab5430305a80e2a52","LGD_BUYERADDRESS":"","LGD_FINANCENAME":"비씨VISA","LGD_CARDNOINTYN":"0","LGD_CARDACQUIRER":"11","LGD_DEVICE":"LG-F500S","LGD_TIMESTAMP":"20180414173044","LGD_PCANCELSTR":"0","LGD_BUYER":"이창열","LGD_CARDINSTALLMONTH":"00","LGD_PRODUCTINFO":"레드 위도우 체어","LGD_BUYERSSN":"","LGD_PRODUCTCODE":"","LGD_VANCODE":"van0011","LGD_TID":"tlgda2018041417304490130","LGD_BUYERID":"wyoule","LGD_OID":"85031-85413-25910","LGD_RESPCODE":"0000","LGD_AMOUNT":"2690","LGD_PCANCELFLAG":"1","LGD_MID":"tlgdacomxpay","LGD_ISPKEY":"000000000000"}]}
+]
+2018-04-14 17:30:44 [INFO ] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response Code=[0000], Msg=[��������], Count=1
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_BUYERPHONE, 0) = 
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_PAYDATE, 0) = 20180414173044
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_DISCOUNTUSEYN, 0) = 0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_BUYEREMAIL, 0) = wyoule@naver.com
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_RECEIVER, 0) = 
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_DELIVERYINFO, 0) = 
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_PAYTYPE, 0) = SC0010
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_RECEIVERPHONE, 0) = 
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_EXCHANGERATE, 0) = 1.0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_IFOS, 0) = 3A6C0S
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_AFFILIATECODE, 0) = 009191
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_RESPMSG, 0) = 결제성공
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_2TR_FLAG, 0) = Y
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_CARDNUM, 0) = 49062512****7890
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_FINANCEAUTHNUM, 0) = 00000000
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_CARDNOINTEREST_YN, 0) = 0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_ESCROWYN, 0) = N
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_TRANSAMOUNT, 0) = 2690
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_FINANCECODE, 0) = 31100
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_DISCOUNTUSEAMOUNT, 0) = 0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_CARDGUBUN1, 0) = 0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_CARDGUBUN2, 0) = 0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_HASHDATA, 0) = 636baad4e26cd1cab5430305a80e2a52
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_BUYERADDRESS, 0) = 
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_FINANCENAME, 0) = 비씨VISA
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_CARDNOINTYN, 0) = 0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_CARDACQUIRER, 0) = 11
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_DEVICE, 0) = LG-F500S
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_TIMESTAMP, 0) = 20180414173044
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_PCANCELSTR, 0) = 0
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_BUYER, 0) = 이창열
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_CARDINSTALLMONTH, 0) = 00
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_PRODUCTINFO, 0) = 레드 위도우 체어
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_BUYERSSN, 0) = 
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_PRODUCTCODE, 0) = 
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_VANCODE, 0) = van0011
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_TID, 0) = tlgda2018041417304490130
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_BUYERID, 0) = wyoule
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_OID, 0) = 85031-85413-25910
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_RESPCODE, 0) = 0000
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_AMOUNT, 0) = 2690
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_PCANCELFLAG, 0) = 1
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_MID, 0) = tlgdacomxpay
+2018-04-14 17:30:44 [DEBUG] [tlgdacomxpay-01201804141730432499cc47611e9bb367cb27d2d5ca2fa13ec93a83] Response (LGD_ISPKEY, 0) = 000000000000

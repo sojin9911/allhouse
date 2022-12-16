@@ -1,0 +1,301 @@
+<?php
+
+// (S) 디바이스정보 LDD 2016-09-19
+if(!function_exists('Get_device_infoLog')) {
+	function Get_device_infoLog($output='array') {
+
+		$Info = array();
+		$agent = $_SERVER['HTTP_USER_AGENT'];
+
+		$Info['os'] = 'Unknown';
+		$Info['browser'] = array();
+		$Info['browser']['base_name'] = 'Unknown';
+		$Info['browser']['name'] = 'Unknown';
+
+		// 플랫 폼 확인
+		if(preg_match('`Android|Apache-HttpClient/UNAVAILABLE \(java`i', $agent)) $Info['os'] = 'android';
+
+		else if(preg_match('`iPod|iPhone|iso`i', $agent)) $Info['os'] = 'ios';
+		else if(preg_match('`BlackBerry`i', $agent)) $Info['os'] = 'blackberry';
+		else if(preg_match('`SymbianOS`i', $agent)) $Info['os'] = 'symbianos';
+		else if(preg_match('`Windows CE`i', $agent)) $Info['os'] = 'windows ce';
+		else if(preg_match('`webOS`i', $agent)) $Info['os'] = 'webos';
+		else if(preg_match('`PalmOS`i', $agent)) $Info['os'] = 'palmos';
+
+		else if(preg_match('`macintosh|mac os x`i', $agent)) $Info['os'] = 'mac';
+		else if(preg_match('`linux`i', $agent)) $Info['os'] = 'linux';
+		else if(preg_match("`windows 98`i", $agent))             $Info['os'] = "98";
+		else if(preg_match("`windows 95`i", $agent))             $Info['os'] = "95";
+		else if(preg_match("`windows nt 4\.[0-9]*`i", $agent))   $Info['os'] = "NT";
+		else if(preg_match("`windows nt 5\.0`i", $agent))        $Info['os'] = "2000";
+		else if(preg_match("`windows nt 5\.1`i", $agent))        $Info['os'] = "XP";
+		else if(preg_match("`windows nt 5\.2`i", $agent))        $Info['os'] = "2003";
+		else if(preg_match("`windows nt 6\.0`i", $agent))        $Info['os'] = "Vista";
+		else if(preg_match("`windows nt 6\.1`i", $agent))        $Info['os'] = "Windows7";
+		else if(preg_match("`windows nt 6\.2`i", $agent))        $Info['os'] = "Windows8";
+		else if(preg_match("`windows 9x`i", $agent))             $Info['os'] = "ME";
+		else if(preg_match("`windows ce`i", $agent))             $Info['os'] = "CE";
+		else if(preg_match("`mac`i", $agent))                    $Info['os'] = "MAC";
+		else if(preg_match("`linux`i", $agent))                  $Info['os'] = "Linux";
+		else if(preg_match("`sunos`i", $agent))                  $Info['os'] = "sunOS";
+		else if(preg_match("`irix`i", $agent))                   $Info['os'] = "IRIX";
+		else if(preg_match("`phone`i", $agent))                  $Info['os'] = "Phone";
+		else if(preg_match("`bot|slurp`i", $agent))              $Info['os'] = "Robot";
+		else if(preg_match("`internet explorer`i", $agent))      $Info['os'] = "IE";
+		else if(preg_match("`mozilla`i", $agent))                $Info['os'] = "Mozilla";
+
+		// 브라우져 확인
+		if(preg_match('`MSIE`i',$agent) && !preg_match('`Opera`i',$agent)) {
+
+			$Info['browser']['base_name'] = 'Internet Explorer';
+			$Info['browser']['name'] = "MSIE";
+		}
+		else if(preg_match('`Firefox`i',$agent)) {
+
+			$Info['browser']['base_name'] = 'Mozilla Firefox';
+			$Info['browser']['name'] = "Firefox";
+		}
+		else if(preg_match('`Chrome`i',$agent)) {
+
+			$Info['browser']['base_name'] = 'Google Chrome';
+			$Info['browser']['name'] = "Chrome";
+		}
+		else if(preg_match('`Safari`i',$agent)) {
+
+			$Info['browser']['base_name'] = 'Apple Safari';
+			$Info['browser']['name'] = "Safari";
+		}
+		else if(preg_match('`Opera`i',$agent)) {
+
+			$Info['browser']['base_name'] = 'Opera';
+			$Info['browser']['name'] = "Opera";
+		}
+		else if(preg_match('`Netscape`i',$agent)) {
+
+			$Info['browser']['base_name'] = 'Netscape';
+			$Info['browser']['name'] = "Netscape";
+		}
+
+		if($output == 'array') {
+
+			$Return = array();
+			$Return['os'] = " {$Info['os']}";
+			$Return['browser'] = "{$Info['browser']['name']}({$Info['browser']['base_name']})";
+			$Return['ip'] = "{$_SERVER['REMOTE_ADDR']}";
+			$Return['agent'] = "{$_SERVER['HTTP_USER_AGENT']}";
+			return $Return;
+		}
+		else {
+
+			$Return = '';
+			$Return = "[os] {$Info['os']}".PHP_EOL;
+			$Return .= "[browser] {$Info['browser']['name']}({$Info['browser']['base_name']})".PHP_EOL;
+			$Return .= "[IP] {$_SERVER['REMOTE_ADDR']}".PHP_EOL;
+			$Return .= "[Agent] {$_SERVER['HTTP_USER_AGENT']}";
+			return addslashes($Return);
+		}
+	}
+}
+
+// (S) 지정일의 요일을 표기 한다. (0000-00-00)
+if(!function_exists('DayOfTheWeek')) {
+	function DayOfTheWeek($date) {
+
+		$DayOfTheWeek_data = date("w", strtotime($date));
+		switch($DayOfTheWeek_data) {
+
+			case 0: $DayOfTheWeek = "일"; break;
+			case 1: $DayOfTheWeek = "월"; break;
+			case 2: $DayOfTheWeek = "화"; break;
+			case 3: $DayOfTheWeek = "수"; break;
+			case 4: $DayOfTheWeek = "목"; break;
+			case 5: $DayOfTheWeek = "금"; break;
+			case 6: $DayOfTheWeek = "토"; break;
+		}
+		return $DayOfTheWeek;
+	}
+}
+
+// (S) 숫자->요일 (0~6)
+if(!function_exists('NumOfTheWeek')) {
+	function NumOfTheWeek($num) {
+
+		$DayOfTheWeek_data = $num;
+
+		switch($DayOfTheWeek_data) {
+
+			case 0: $DayOfTheWeek = "일"; break;
+			case 1: $DayOfTheWeek = "월"; break;
+			case 2: $DayOfTheWeek = "화"; break;
+			case 3: $DayOfTheWeek = "수"; break;
+			case 4: $DayOfTheWeek = "목"; break;
+			case 5: $DayOfTheWeek = "금"; break;
+			case 6: $DayOfTheWeek = "토"; break;
+		}
+
+		return $DayOfTheWeek;
+	}
+}
+
+
+
+# (S) 주소에서 키워드를 추출
+if(!function_exists('GetUrlKeyword')) {
+	function GetUrlKeyword($url) {
+		$KeyParam = array('query', 'q', 'sword'); // query: 네이버, q: 다음/네이트
+		foreach(explode('&', $url) as $k=>$v) {
+			$Ep = explode('=', $v);
+			if(!in_array($Ep[0], $KeyParam)) continue;
+			return rawurldecode($Ep[1]);
+		}
+	}
+}
+
+
+
+# (B)모든 inc.php가 호출 되는 위치의 함수
+function hook_log_insert() {
+	global $crmsd, $system;
+	if(!$crmsd) $crmsd = array('www');
+	if(strpos($_SERVER['SCRIPT_NAME'], 'ajax.') !== false) return; // ajax.가 포함된 파일은 pass
+	$Counter_ON = 'N'; // 기본 저장하지 않음으로 체크
+	$Cinfo = _MQ(" select * from `smart_counter_config` ");
+	if($Cinfo['Counter_Use'] == 'N') { // 카운터 사용안함
+		$Counter_ON = 'N';
+	}
+	else if($Cinfo['Cookie_Use'] == 'A') { // 접속하는대로 카운터 증가
+		$Counter_ON = 'Y';
+		setcookie('smart_counter_term', 0, 0, '/', '.'.str_replace($crmsd, '', reset(explode(':', $system['host']))));
+	}
+	else if($Cinfo['Cookie_Use'] == 'T') { // 지정된시간대로 카운터 증가
+		$Cookie_Term = $Cinfo['Cookie_Term'];
+		$temp = time() - $_COOKIE['smart_counter_term'];
+		if($temp > $Cookie_Term) {
+			$Counter_ON = 'Y';
+			setcookie('smart_counter_term', time(), $ToDay_Time+365*24*3600, '/', '.'.str_replace($crmsd, '', reset(explode(':', $system['host']))));
+		}
+	}
+	else if($Cinfo['Cookie_Use'] == 'O') { // 하루에 한번만 카운터 증가
+		$temp1 = date('Y-m-d', strtotime($_COOKIE['smart_counter_term2']));
+		$temp2 = date('Y-m-d', time());
+		if($temp1 != $temp2) {
+			$Counter_ON = 'Y';
+			setcookie('smart_counter_term2', $temp2, time()+60*60*24, '/', '.'.str_replace($crmsd , "" , reset(explode(':', $system['host']))));
+		}
+	}
+	if($Cinfo['Admin_Check_Use'] == 'Y' && $_SERVER['REMOTE_ADDR'] == $Cinfo['Admin_IP']) $Counter_ON = 'N'; // 관리자 IP 기록 안함모드
+	if($Counter_ON != 'Y') return;
+
+	// 저장할 항목 저장
+	$referer = parse_url($_SERVER['HTTP_REFERER']);
+	if($referer['host'] == $_SERVER['HTTP_HOST']) return; // referer = HTTP_HOST 면 pass
+	$Device = Get_device_infoLog();
+	$log['sc_url'] = $_SERVER['REQUEST_URI'];
+	$log['sc_referer'] = $_SERVER['HTTP_REFERER'];
+	$log['sc_keyword'] = trim(GetUrlKeyword($_SERVER['HTTP_REFERER']));
+	$log['sc_ip'] = $_SERVER['REMOTE_ADDR'];
+	$log['sc_mobile'] = (is_mobile() === true?'Y':'N');
+	$log['sc_device'] = trim($Device['agent']);
+	$log['sc_os'] = (preg_match("/npay\/callback.php/i", $_SERVER['HTTP_REFERER'])?'NPayBot':trim($Device['os']));
+	$log['sc_browser'] = trim($Device['browser']);
+	$log['sc_date'] = date('Y-m-d H:i:s', time());
+	$log['sc_date_y'] = date('Y', time());
+	$log['sc_date_m'] = date('m', time());
+	$log['sc_date_d'] = date('d', time());
+	$log['sc_date_w'] = date('w', time());
+	$log['sc_date_h'] = date('H', time());
+	if($Cinfo['Route_Use'] == 'N') $log['sc_referer'] = $log['sc_keyword'] = ''; // 접속경로 사용안함
+	_MQ_noreturn(" insert into `smart_counter` (`".implode('`, `', array_keys($log))."`) values ('".implode("', '", array_values($log))."')"); // 로그 기록
+	_MQ_noreturn(" update `smart_counter_config` set `Total_Num` = `Total_Num`+1 where `uid` = '1' "); // 전체 방문자 카운터 증가
+}
+
+
+
+# (B) 검색키워드 통계
+// 사용시 `hook.add.php` 파일 `addHook($HookFileName, 'hook_log_insert');` 다음 `addHook('product.search.list', 'hook_word_rank'); // 검색키워드 통계` 추가
+function hook_word_rank() {
+
+	$word_table = 'smart_word_rank';
+	$word_table_log = 'smart_word_rank_log';
+	$ip = $_SERVER['REMOTE_ADDR'];
+	$word =  ($_GET['search_type'] == 'hash'?null:$_GET['search_word']);
+	$word_detail = ($_GET['detail_search'] == 'Y'?$_GET['search_word_sub']:null);
+	$hash_tag = ($_GET['search_type'] == 'hash'?$_GET['search_word']:$_GET['hash_tag']);
+	if(!$word && !$word_detail && !$hash_tag) return;
+
+
+	// 검색어 추가
+	if($word) {
+		$word_w = _MQ(" select `swr_uid` from `{$word_table}` where `swr_word` = '{$word}' and `swr_type` = 'W' and date(`swr_date`) = date(now()) ");
+		if($word_w['swr_uid']) {
+
+			$Check = _MQ(" select `swr_uid` from `{$word_table_log}` where `swr_word` = '{$word}' and `swr_type` = 'W' and date(`swr_date`) = date(now()) and `swr_ip` = '{$ip}' ");
+			if(!$Check['swr_uid']) _MQ_noreturn(" update `{$word_table}` set `swr_count` = `swr_count`+1 where `swr_word` = '{$word}' and `swr_type` = 'W' and date(`swr_date`) = date(now()) ");
+		}
+		else {
+			// 실제 로그
+			_MQ_noreturn(" insert into `{$word_table}` set `swr_word` = '{$word}', `swr_type` = 'W', `swr_date` = now(), `swr_count` = 1 ");
+
+			// 아이피별로그
+			_MQ_noreturn(" insert into `{$word_table_log}` set `swr_word` = '{$word}', `swr_type` = 'W', `swr_date` = now(), `swr_count` = 1, `swr_ip` = '{$_SERVER['REMOTE_ADDR']}' ");
+		}
+	}
+
+	// 상세 검색어 추가
+	if($word_detail) {
+		$word_d = _MQ(" select `swr_uid` from `{$word_table}` where `swr_word` = '{$word_detail}' and `swr_type` = 'D' and date(`swr_date`) = date(now()) ");
+		if($word_d['swr_uid']) {
+
+			$Check = _MQ(" select `swr_uid` from `{$word_table_log}` where `swr_word` = '{$word_detail}' and `swr_type` = 'D' and date(`swr_date`) = date(now()) and `swr_ip` = '{$ip}' ");
+			if(!$Check['swr_uid']) _MQ_noreturn(" update `{$word_table}` set `swr_count` = `swr_count`+1 where `swr_word` = '{$word_detail}' and `swr_type` = 'D' and date(`swr_date`) = date(now()) ");
+
+		}
+		else {
+			// 실제 로그
+			_MQ_noreturn(" insert into `{$word_table}` set `swr_word` = '{$word_detail}', `swr_type` = 'D', `swr_date` = now(), `swr_count` = 1 ");
+
+			// 아이피별로그
+			_MQ_noreturn(" insert into `{$word_table_log}` set `swr_word` = '{$word_detail}', `swr_type` = 'D', `swr_date` = now(), `swr_count` = 1, `swr_ip` = '{$_SERVER['REMOTE_ADDR']}' ");
+		}
+	}
+
+	// 키워드(해시태그) 추가
+	if($hash_tag && $Check_k === false) {
+		$word_k = _MQ(" select `swr_uid` from `{$word_table}` where `swr_word` = '{$hash_tag}' and `swr_type` = 'K' and date(`swr_date`) = date(now()) ");
+		if($word_k['swr_uid']) {
+
+			$Check = _MQ(" select `swr_uid` from `{$word_table_log}` where `swr_word` = '{$hash_tag}' and `swr_type` = 'K' and date(`swr_date`) = date(now()) and `swr_ip` = '{$ip}' ");
+			if(!$Check['swr_uid']) _MQ_noreturn(" update `{$word_table}` set `swr_count` = `swr_count`+1 where `swr_word` = '{$hash_tag}' and `swr_type` = 'K' and date(`swr_date`) = date(now()) ");
+		}
+		else {
+			// 실제 로그
+			_MQ_noreturn(" insert into `{$word_table}` set `swr_word` = '{$hash_tag}', `swr_type` = 'K', `swr_date` = now(), `swr_count` = 1 ");
+
+			// 아이피별로그
+			_MQ_noreturn(" insert into `{$word_table_log}` set `swr_word` = '{$hash_tag}', `swr_type` = 'K', `swr_date` = now(), `swr_count` = 1, `swr_ip` = '{$_SERVER['REMOTE_ADDR']}' ");
+		}
+	}
+}
+
+
+
+# (B) 로그인시 로그 업데이트 처리
+function hook_log_id_update() {
+
+	$MemberCk = _MQ(" select * from `smart_individual` where `in_id` = '{$_POST['login_id']}' and `in_pw` = password('{$_POST['login_password']}') ");
+	if(count($MemberCk) <= 0) return; // 로그인 체크
+	$Device = Get_device_info();
+	_MQ_noreturn("
+		update
+			`smart_counter`
+		set
+			`sc_mid` = '{$_POST['login_id']}'
+		where
+			`sc_ip` = '{$_SERVER['REMOTE_ADDR']}' and
+			`sc_device` = '".trim($Device['agent'])."' and
+			`sc_os` = '".trim($Device['os'])."' and
+			`sc_browser` = '".trim($Device['browser'])."' and
+			date(`sc_date`) = '".date('Y-m-d', time())."' and
+			`sc_mid` = ''
+	");
+}

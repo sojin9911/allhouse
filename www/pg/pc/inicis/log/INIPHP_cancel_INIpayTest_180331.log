@@ -1,0 +1,101 @@
+INFO	[2018-03-31 16:09:55:899] <6905> START INIPHP cancel (V5046-170421)(OS:Linux2.6.32-358.18.1.el6.x86_64,PHP:5.2.17)
+DEBUG	[2018-03-31 16:09:55:899] <6905> inipayhome:/home/onedaynet/solution/hy30/public_html/pg/pc/inicis
+DEBUG	[2018-03-31 16:09:55:899] <6905> debug:true
+DEBUG	[2018-03-31 16:09:55:899] <6905> admin:1111
+DEBUG	[2018-03-31 16:09:55:899] <6905> mid:INIpayTest
+DEBUG	[2018-03-31 16:09:55:899] <6905> paymethod:
+DEBUG	[2018-03-31 16:09:55:899] <6905> pgid:INIphponline
+DEBUG	[2018-03-31 16:09:55:899] <6905> type:cancel
+DEBUG	[2018-03-31 16:09:55:899] <6905> tid:StdpayISP_INIpayTest20170711175124834302
+DEBUG	[2018-03-31 16:09:55:899] <6905> cancelmsg:
+INFO	[2018-03-31 16:09:55:899] <6905> Check Field OK
+INFO	[2018-03-31 16:09:55:899] <6905> INPUT TID > StdpayISP_INIpayTest20170711175124834302
+INFO	[2018-03-31 16:09:55:899] <6905> PI PUB KEY LOAD OK []
+INFO	[2018-03-31 16:09:55:900] <6905> PG PUB KEY LOAD OK [30]
+INFO	[2018-03-31 16:09:55:900] <6905> MERCHANT PRIV KEY LOAD OK
+INFO	[2018-03-31 16:09:55:901] <6905> MERCHANT PUB KEY LOAD OK [0]
+DEBUG	[2018-03-31 16:09:55:902] <6905> MAKE ENCRYPT OK[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+	  <CancelTID>StdpayISP_INIpayTest20170711175124834302</CancelTID>
+	  <CancelMsg/>
+	  <CancelReason/>
+	  <RefundAcctNum/>
+	  <RefundBankCode/>
+	  <RefundAcctName/></CancelInfo>]
+INFO	[2018-03-31 16:09:55:902] <6905> MAKE BODY OK
+INFO	[2018-03-31 16:09:55:903] <6905> SIGN OK
+INFO	[2018-03-31 16:09:55:903] <6905> MAKE HEAD OK
+DEBUG	[2018-03-31 16:09:55:903] <6905> MSG_TO_PG:[0092900175D SHA1                   0                                      300420INIpayTest                    StdpayISP_INIpayTest20170711175124834302<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+	  <CancelInfo>
+	    <SessionKey>SqH6ma3XOU/400w7q8qnL9Dv4HEUeRoFbvqy+KTcrhZXtUeIx7Yoa7Oh/+nOFDTx
+vnglpG/LXXSeWNis94q0eg2UXjAJZcbXG27FnCkbHx5zot5THTq0GqsJ4ER4xzGC
+XKVgrg1RuJ4KSgYEUHv60i3wTMuQ5rs834cHhFc9YsCdLNVV/gwt9w==
+</SessionKey>
+	    <Encrypted>BeGGcd/gSzP0dBTVhAIAFjN1d+8+2sgaXgeGkyuRW/BvFojRm1jzivI1XTjjpPgc
+VADE210UrEMmXPGDmTDMQEvzSTl/UUHfJe7LTgpGw1EitF/Sv8Oc/u2DGKRxJCEE
+0NGRzWy9lllxfIdej1pfjtGzSUEXxSaaGHZgm25mrzBiVQBj0dbaF5Q209gGvN0a
+llouXw9uHDoPweAt0FKGUWyZRsS43853ZX/V6Fe98V0DJIrwpODoCUrxConGd3cj
+3VEBRFQ7Dnb20WtwJTC9MdJcAni4GQsbGP/NtDWja/HM05QfIIsYJg==
+</Encrypted></CancelInfo>
+	  <ReservedInfo>
+	    <MReserved1/>
+	    <MReserved2/>
+	    <MReserved3/></ReservedInfo>
+	  <ManageInfo>
+	    <Language/>
+	    <URL/>
+	    <TXVersion>5046B170421canceLinux     PHPchkfake   2.6.32-358.18.1.el6.x86_64PHP:</TXVersion>
+	    <TXUserID/>
+	    <TXRegNum/></ManageInfo></INIpay>F1s1unRVZ9USZ+/H8dtaHN+Oy1hRyKJdHn3h6g9L/kJPFzPUEACQjwJyCTr+lis/
+2DtoKPfsORK8BI3ZliIuOdDVa/ieUxC8KRzGJH4ayEIaG/GJB6Ny2ApNigM4naDu
+ubSzNyt1Sdo+LTmg1zlYw8SGj5HT8Ow2KWnmGrRO6R0=
+]
+INFO	[2018-03-31 16:09:55:903] <6905> DNS LOOKUP OK(203.238.37.3:203.238.37.3:34049) laptime:0
+INFO	[2018-03-31 16:09:55:906] <6905> SOCKET CONNECT OK
+INFO	[2018-03-31 16:09:55:906] <6905> SEND OK
+INFO	[2018-03-31 16:09:56:135] <6905> RECV OK
+DEBUG	[2018-03-31 16:09:56:135] <6905> MSG_FROM_PG:[0108200175D SHA1                   0                                      300430INIpayTest                    StdpayISP_INIpayTest20170711175124834302<?xml version="1.0" encoding="UTF-8"?>
+<INIpay>
+  <CancelInfo>
+    <ResultCode>501626</ResultCode>
+    <ResultMsg urlencode="1">%B1%E2+%C3%EB%BC%D2+%B0%C5%B7%A1</ResultMsg>
+    <SessionKey>XyjB/ECoYn6nTjLc1NsaIWE+hFLP+lVx2NT3bzdfV+CsxJP1LIdFdMWeOC/Y5xQs
+bN3MGh/qsMelmwb1zGIeVgCgPWNLUDl+kSL08zDJ46ZX2qUbNbWncrOEPErkdBNj
+H3INRzXdcH3nG/jWa2nTRAOssegnA6c7YEkDAaB9xkAv9zueKyFA9Q==
+</SessionKey>
+    <Encrypted>VnDbbk36k8IwnA7nFJ0N4JgnyNEp2Gq97QjqNC4zhTyeAI9Jg6Yx2BtfB6XaKPaV
+nrvGks03oaksNzMXWL06DokdOCeam0qc/XdMelFcPBcUGH3th8RzBoJAMXb222X1
+Xs58mwnNvhyTSIgczWZo1PPQYKQ9tAWj75rBCWtThQRShwHphfjRHvg9ceKI3f5B
+COZ3wm4AGh69wdwGUDaayWtkweozsOsTuVxmJliPxK9jvdHDxRXLWm6e9ehT5d7X
+x4PupQqI6fjTGyW0uLPfKdx321aq/z0fcFPhP4tZeUhurxMT+nzSiw==
+</Encrypted>
+  </CancelInfo>
+  <ManageInfo/>
+  <ReservedInfo>
+    <MReserved1 urlencode="1"></MReserved1>
+    <MReserved2 urlencode="1"></MReserved2>
+    <MReserved3 urlencode="1"></MReserved3>
+    <PGReserved1 urlencode="1"></PGReserved1>
+    <PGReserved2 urlencode="1"></PGReserved2>
+    <PGReserved3 urlencode="1"></PGReserved3>
+  </ReservedInfo>
+</INIpay>
+rVk3DtRe0jRTPnz3qMXlGLRwJvnl3U5k0cAwyUAQq830V7ypPQPea2fca5UhAR0e
+n6UcEkpfPSzO3o6/DzTu2SUHlnjIHmS6ScLAiuzE6nQTFfsuuJ4+HIakBI1KC/ZF
+YnVGdGQTuVA954b1OgnEVzmj+EdlQR4XDojnB0CMS74=
+]
+INFO	[2018-03-31 16:09:56:135] <6905> VERIFY OK
+INFO	[2018-03-31 16:09:56:135] <6905> PARSE HEAD OK
+INFO	[2018-03-31 16:09:56:136] <6905> PARSE BODY OK
+INFO	[2018-03-31 16:09:56:138] <6905> DECRYPT OK
+DEBUG	[2018-03-31 16:09:56:138] <6905> DECRYPT MSG:[<?xml version="1.0" encoding="UTF-8"?>
+<CancelInfo>
+  <CancelDate></CancelDate>
+  <CancelTime></CancelTime>
+  <ResultCode>501626</ResultCode>
+  <ResultMsg urlencode="1">%B1%E2+%C3%EB%BC%D2+%B0%C5%B7%A1</ResultMsg>
+</CancelInfo>]
+INFO	[2018-03-31 16:09:56:138] <6905> DECRYPT PARSE OK
+INFO	[2018-03-31 16:09:56:138] <6905> END cancel [501626|기 취소 거래] Laptime:[0.243sec]
+INFO	[2018-03-31 16:09:56:138] <6905> ===============================================================

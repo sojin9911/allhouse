@@ -1,0 +1,90 @@
+/*
+copyright(c) 상상너머·원데이넷 all rights reserved.
+허용된 라이센스이외 무단도용재배포를 금합니다.
+*/
+
+@charset "utf-8";
+
+
+/* ●●●●●●●●●● 기본설정 */
+
+html {width:100%;}
+body {height:100%; margin:0; padding:0; background:#e1e2e6;}
+body,p,pre,form,span,div,table,td,ul,ol,li,dl,dt,dd,input,textarea,label,button,a,select {font-family:'roboto','NanumBarunGothic',sans-serif; color:#666;  word-wrap:break-word; word-break:keep-all; font-size:12px; letter-spacing:-0.5px; -webkit-text-size-adjust:none;}
+/* 모바일에서 공통페이지 숫자 영문등의 표현이 디자인적으로 필요  lato설정 */
+
+img {border:0;}
+p,form,span,h1,h2,h3,h4,h5,h6 {margin:0; padding:0; font-weight:normal}
+div,table {margin:0; padding:0; border-spacing:0; border-collapse:collapse; border:0px none; }
+ul,ol,li,td,dl,dt,dd {margin:0; padding:0;}
+dl,dt,dd {list-style:none;}
+input,select,textarea,button {margin:0; padding:0; vertical-align:middle; font-size:12px; outline:none}
+em {font-style:normal}
+a,span {display:inline-block;}
+
+a:link, a:visited {color:#666; text-decoration:none;}
+a:hover, a:active {color:#333; text-decoration: none;}
+
+
+/* ●●●●●●●●●● 폼요소 기본 */
+
+/* 체크박스/라디오버튼 */
+label {overflow:hidden; line-height:20px; display:inline-block;}
+input[type=checkbox],input[type=radio] {float:left; -webkit-appearance:none; -webkit-gradient:none; -webkit-border-radius:0; border:none; margin-right:5px;}
+
+/* 체크박스 */
+input[type=checkbox] {background:transparent url('../images/cm_images/checkbox_radio.png') left top no-repeat; background-size:40px; width:20px; height:20px;}
+input[type=checkbox]:checked {background-position:right top; }
+
+/* 라디오버튼 */
+input[type=radio] {background:transparent url('../images/cm_images/checkbox_radio.png') left bottom no-repeat; background-size:40px; width:20px; height:20px;}
+input[type=radio]:checked {background-position:right bottom;  }
+
+
+/* 인풋폼 기본 */
+input[type=text],input[type=password],input[type=number],input[type=email],input[type=tel],input[type=date],input[type=file],input[type=search], input[type=submit],input[type=url], input[type=button], button
+{-webkit-appearance:none; -webkit-gradient:none; -webkit-border-radius:0; border:none; color:#999; background:none; box-sizing:border-box;}
+input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0;} /* 오른쪽에 나타나는 화살표 버튼없애기 */
+input[type=date]::-webkit-outer-spin-button, input[type=date]::-webkit-inner-spin-button {-webkit-appearance:none; margin:0; border:0;} /* 오른쪽에 나타나는 화살표 버튼없애기 */
+input:focus {color:#333}
+textarea {border:none; background:none; line-height:18px; padding:5px; box-sizing:border-box; width:100%; -webkit-appearance:none; -webkit-border-radius:0;}
+textarea:focus {color:#000}
+
+
+/* placholder는 일부 안드로이드에서 line-height값이 먹히지 않으므로 패딩값으로 함께 조절 */
+input::-webkit-input-placeholder {color:#aaa; letter-spacing:-0.5px}
+input::input-placeholder {color:#aaa; letter-spacing:-0.5px}
+textarea::-webkit-input-placeholder {color:#aaa}
+textarea::input-placeholder {color:#aaa}
+
+
+/* 셀렉트박스 */
+.select {position:relative; border:1px solid #ddd; background:#fff;height:35px; width:100%; box-sizing:border-box; border-radius:5px;}
+.select:only-of-type {margin-bottom:0;}
+.select .shape {position:absolute; right:0; top:0; border-left:1px solid #ddd; width:30px; height:100%; background:#fafafa; border-radius:0 5px 5px 0;}
+.select .shape:before {content:''; width:2px; height:8px; position:absolute; left:50%; top:50%; background:#bbb; transform: rotate(45deg); -webkit-transform: rotate(45deg); margin:-4px 0 0 2px}
+.select .shape:after {content:''; width:2px; height:8px; position:absolute; left:50%; top:50%; background:#bbb; transform: rotate(-45deg); -webkit-transform: rotate(-45deg); margin:-4px 0 0 -3px}
+.select select {width:100%; height:100%; padding:0 35px 0 10px; box-sizing:border-box; border:none; position:absolute; left:0; top:0; -webkit-appearance:none; background:transparent; z-index:1}
+.select+ .select { margin-top:5px; }
+/* 사용법
+<div class="select">
+	<span class="shape"></span>
+	<select name="">
+		<option value="0">옵션</option>
+	</select>
+</div>
+*/
+
+
+.lineup {display:inline-block;}
+.wrap {width:100%; height:100%; position:relative;}
+.clear {clear:both}
+.upper_link {position:absolute; left:0; top:0; width:100%; height:100%; z-index:2}
+
+
+/* 공통페이지는 다음과 같은 경로안으로 들어갑니다. 
+.common_page {padding:10px; overflow:hidden; background:#eee; }
+.common_inner {background:#fff; padding:10; overflow:hidden;}
+.common_full {padding:0} 
+.common_full .cm_bottom_button {margin:20px 10px;}
+*/
